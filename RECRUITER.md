@@ -21,6 +21,7 @@ It is actually not finished yet, as you might see there, I didn't show my curren
 
 For my first 3 clients I decided to learn React, and start using Git. Not surprising, I really love it. It's like a luna park for me, someone who had used pure code to make things.
 I still gain knowledge in React as time goes.
+My git knowledge is not perfect and I might even consider myself a beginner.
 
 ## How do I do my things, how do I learn
 I don't like reading from books, and I don't like reading a tutorial (but sometimes you must!). Most of my knowledge was gained using Google, and just Google.
