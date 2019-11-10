@@ -32,3 +32,5 @@ This question has a personal side, I really really really want to advance forwar
 I'm applying because I think I am already capable of making things happen. And if I don't know how to make something happen, I learn how to make it happen, that's how it always worked for me.
 I'm pretty sure that anyone upon receiving the job they always wanted, will dedicate themselves in order to be in line and even better.
 
+
+Thank you very much. Hope you take me seriously, as I really am.
