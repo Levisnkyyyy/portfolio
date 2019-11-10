@@ -19,7 +19,7 @@ All of my past experience led to who I am now. I can say in pride, that I know H
 This brought me to making my portfolio, benlevi.me. I built using HTML, Sass and jQuery. I created it in order to make myself an internet presence, and gain clients worldwide.
 It is actually not finished yet, as you might see there, I didn't show my current projects, I wish to finish them first and then show them.
 
-For my first 3 clients I decided to learn React. Not surprising, I really love it. It's like a luna park for me, someone who had used pure code to make things.
+For my first 3 clients I decided to learn React, and start using Git. Not surprising, I really love it. It's like a luna park for me, someone who had used pure code to make things.
 I still gain knowledge in React as time goes.
 
 ## How do I do my things, how do I learn
