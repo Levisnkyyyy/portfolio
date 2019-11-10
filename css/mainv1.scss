@@ -1,0 +1,190 @@
+@charset "utf-8";
+/*! bulma.io v0.7.4 | MIT License | github.com/jgthms/bulma */
+$tablet: 768px;
+
+// 1. Your custom variables and variable overwrites.
+@font-face {
+    font-family: 'Stolzl';
+    src: url("../src/Stolzl Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Stolzl Book';
+    src: url("../src/Stolzl Book.otf") format("opentype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Stolzl Medium';
+    src: url("../src/Stolzl Medium.otf") format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url("../src/BrandonGrotesque-Black.otf") format("opentype");
+}
+@mixin font-stolzl-light() { font-family: "Stolzl Book", "Arial", sans-serif;}
+@mixin font-stolzl() { font-family: "Stolzl", "Arial", sans-serif;}
+@mixin font-brandon() { font-family: "Brandon", "Poppins", sans-serif;}
+
+@import "../bulma/sass/utilities/_all";
+@import "../bulma/sass/base/_all";
+@import "../bulma/sass/elements/_all";
+@import "../bulma/sass/components/_all";
+@import "../bulma/sass/grid/_all";
+@import "../bulma/sass/layout/_all";
+
+
+.bl-absolute {
+    position: absolute;
+}
+.bl-viewport-height {
+    height: 100vh;
+}
+
+.navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    @include tablet {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 15px;
+    }
+    .svgbtn {
+        width: 160px;
+    }
+    .level-item.links {
+        .link:not(:last-child) {
+            margin-right: 2.7rem;
+        }
+    }
+}
+
+.bg-shapes {
+    background-image: url(../img/svg/shapes-bg.svg);
+    background-size: 100% auto;
+    background-position: top;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+}
+section {
+    position: relative;
+}
+
+#home {
+    h1 {
+        @include font-brandon();
+        font-size: 6rem;
+    }
+    p {
+        @include font-stolzl-light();
+    }
+    
+}
+#about {
+    .about-box {
+        @include mobile {
+            width: 90%;
+        }
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.bg-text {
+    position: absolute;
+    &.noanim {
+        position: fixed;
+        opacity: 0;
+    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: -1;
+    p {
+        @include font-stolzl-light();
+        opacity: 0.05;
+        font-size: 120px;
+        @include tablet {
+            font-size: 300px;
+        }
+        @include widescreen {
+            font-size: 480px;
+        }
+        text-align: center;
+    }
+}
+
+#work {
+    .showcase {
+        position: relative;
+        width: 100%;
+        .infobox {
+            position: absolute;
+            height: 270px;
+            width: 270px;
+            z-index: 2;
+            top: 270px;
+            left: 120px;
+            .outline {
+                position: absolute;
+                border: 2px solid black;
+                width: 270px;
+                height: 270px;
+                top: -5px;
+                left: -5px;
+                z-index: 1;
+            }
+            .info {
+                background-color: lightpink;
+                position: absolute;
+                height: 270px;
+                width: 270px;
+                z-index: 0;
+                padding: 20px;
+                h3 {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                p:not(.subtext) {
+                    text-align: center;
+                    margin-top: 10px;
+                }
+            }
+
+        }
+        .image {
+            position: absolute;
+            width: calc(83.3333333% - 40px);
+            right: 0;
+            background-image: url("../img/project1.png");
+            background-color: #cccccc;
+            height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+#footer {
+    color: white;
+    .content {
+        margin-top: 200px;
+        text-align: center;
+        h1 {
+            color: white;
+            font-size: 4rem;
+            @include font-brandon();
+        }
+        .sociallist {
+            i:not(:last-child) {
+                margin-right: 23px;
+            }
+        }
+    }
+}

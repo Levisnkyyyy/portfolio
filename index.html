@@ -1,0 +1,907 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ben Levi - Fullstack Web Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css?v=822">
+  <link href="https://fonts.googleapis.com/css?family=Asap:700|Quicksand:400,500,600,700&display=swap" rel="stylesheet"> 
+   <meta name="theme-color" content="#000">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146804018-1"></script>
+<script>
+  var url = window.location.href;
+  if(url.includes(':8080') == false)
+  {
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-146804018-1');
+  }
+
+</script>
+
+</head>
+
+<body>
+  <div id="loader">
+
+  </div>
+  <div id="loader-logo">
+      <svg class="logo logo-loader" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 170 70" enable-background="new 0 0 170 70" xml:space="preserve">
+   <g id="logorect">
+     
+       <rect stroke-dasharray="500" stroke-dashoffset="500" id="XMLID_1_" x="9.7" y="9.5" fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" width="152" height="51"/>
+   </g>
+   <g id="logoletters">
+     <text fill="#fff" num="7" transform="matrix(1 0 0 1 144.4375 45.0013)" font-family="'Asap'" font-size="31px">.</text>
+     <text fill="#fff" num="6" transform="matrix(1 0 0 1 134.6042 44.9997)" font-family="'Asap'" font-size="31px">I</text>
+     <text fill="#fff" num="5" transform="matrix(1 0 0 1 113.9375 45)" font-family="'Asap'" font-size="31px">V</text>
+     <text fill="#fff" num="4" transform="matrix(1 0 0 1 95.7708 44.9997)" font-family="'Asap'" font-size="31px">E</text>
+     <text fill="#fff" num="3" transform="matrix(1 0 0 1 80.1042 45.001)" font-family="'Asap'" font-size="31px">L</text>
+     <text fill="#fff" num="2" transform="matrix(1 0 0 1 56.2708 44.9997)" font-family="'Asap'" font-size="31px">N</text>
+     <text fill="#fff" num="1" transform="matrix(1 0 0 1 37.9375 45.0006)" font-family="'Asap'" font-size="31px">E</text>
+     <text fill="#fff" num="0" transform="matrix(1 0 0 1 18.9375 45)" font-family="'Asap'" font-size="31px">B</text>
+   </g>
+   </svg>
+   
+  </div>
+
+  <div id="cursor" class=""><span></span></div>
+  <div class="sidestripe default">
+
+  </div>
+  <div class="about_modal_stripe">
+    <div class="animated_stripe"></div>
+    <div class="about_modal">
+      <div class="contain">
+        <div class="close_modal pointer" data-anim="fade">
+            <i class="fas fa-times fa-lg pointer"></i>
+        </div>
+          <h2 class="title" data-anim="totop">ABOUT <span>ME</span></h2>
+        <div class="columns">
+          <div class="column about_modal-info is-three-fifths">
+           
+            <p data-anim="totop" data-anim-delay="0.2">
+
+              I am fullstack web developer from Haifa, Israel. I have a few years of experience under my belt, but never took the step forward.
+              I gained my knowledge slowly, through gaming and experimenting, since 14 years of age till today.
+              I am super-friendly, and eager already to start working with you! I guarantee to service you at a fraction of the cost of an in-house web designer/developer.
+              
+
+</p>
+          </div>
+          <div class="column about_modal-avatar" data-anim="totop">
+            <div class="contain">
+                <img src="img/avatar.png" style="height: 120px" />
+                <p>Ben Levi</p>
+            </div>
+          </div>
+        </div>
+        <div class="about_modal-bottominfo" data-anim="totop" data-anim-delay="0.4">
+          <label>Languages I speak:</label>
+        <p>HTML5, CSS3, Sass, PHP, SQL, JavaScript, jQuery</p>
+        <label>Tools I use:</label>
+        <p>Visual Studio, Adobe Illustrator Photoshop and Xd, GitHub, Bulma, Notion</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebutton pointer">
+    <div class="icon">
+        <i class="fas fa-envelope fa-lg"></i>
+    </div>
+    
+  </div>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]--      // #F4F8FB 1f1e1d-->
+    
+    <div class="home-wrapper is-clipped section" id="home-wrapper" style="position: relative; background-color: #141615
+    ">
+      <div class="homebgtext is-hidden-mobile">BENLEVI</div>
+      <div class="sidetext">
+        <p key="1" class="" style="color: white;">INTRODUCTION</p>
+      </div>
+      <div class="codebars">
+          <svg version="1.1" height="146%" id="codebars" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 750 1000" enable-background="new 0 0 750 1000" xml:space="preserve">
+       <g id="Layer_1">
+       </g>
+       <g id="line1">
+         <rect id="color1_3_" x="24.4" y="34.4" fill="#68CBE2" width="93.3" height="15.1"/>
+         <rect id="color1_2_" x="129.6" y="34.4" fill="#68CBE2" width="32.6" height="15.1"/>
+         <rect id="color1_1_" x="174.3" y="34.4" fill="#68CBE2" width="144" height="15.1"/>
+         <rect id="color1" x="330" y="34.4" fill="#68CBE2" width="15.4" height="15.1"/>
+       </g>
+       <g id="line2">
+         <rect id="color2" x="54" y="58.4" fill="#ED1261" width="50.6" height="15.1"/>
+         <rect id="color3" x="116.7" y="58.4" fill="#C8C7C7" width="143.3" height="15.1"/>
+       </g>
+       <g id="line3">
+         <rect id="color3_4_" x="54" y="82.8" fill="#C8C7C7" width="17" height="15.1"/>
+         <rect id="color3_3_" x="81.6" y="82.8" fill="#C8C7C7" width="119" height="15.1"/>
+         <rect id="color3_1_" x="212.6" y="82.8" fill="#C8C7C7" width="51" height="15.1"/>
+       </g>
+       <g id="line5">
+         <rect id="color1_7_" x="54" y="106.8" fill="#68CBE2" width="33" height="15.1"/>
+         <rect id="color4" x="99" y="106.8" fill="#9ECC3B" width="143.7" height="15.1"/>
+         <rect id="color3_5_" x="254.6" y="106.8" fill="#C8C7C7" width="33.4" height="15.1"/>
+         <rect id="color3_9_" x="299.6" y="106.8" fill="#C8C7C7" width="32.7" height="15.1"/>
+       </g>
+       <g id="line6">
+         <rect id="color3_10_" x="84.5" y="130.9" fill="#C8C7C7" width="50.8" height="15.1"/>
+       </g>
+       <g id="line7">
+         <rect id="color5" x="84.5" y="155.1" fill="#F58220" width="119" height="15.1"/>
+       </g>
+       <g id="line8">
+         <rect id="color3_13_" x="84.5" y="179.2" fill="#C8C7C7" width="33.1" height="15.1"/>
+         <rect id="color3_15_" x="128.9" y="179.2" fill="#C8C7C7" width="94" height="15.1"/>
+       </g>
+       <g id="line9">
+         <rect id="color3_17_" x="54" y="203.3" fill="#C8C7C7" width="16.6" height="15.1"/>
+       </g>
+       <g id="line10">
+         <rect id="color4_3_" x="54" y="227.4" fill="#9ECC3B" width="171.6" height="15.1"/>
+         <rect id="color3_23_" x="237.5" y="227.4" fill="#C8C7C7" width="33" height="15.1"/>
+         <rect id="color3_22_" x="282.5" y="227.4" fill="#C8C7C7" width="118.7" height="15.1"/>
+         <rect id="color3_19_" x="413.1" y="227.4" fill="#C8C7C7" width="50" height="15.1"/>
+         <rect id="color3_35_" x="475.5" y="227.4" fill="#C8C7C7" width="15.7" height="15.1"/>
+       </g>
+       <g id="line11">
+         <rect id="color1_4_" x="84.5" y="251.5" fill="#68CBE2" width="93.5" height="15.1"/>
+         <rect id="color3_30_" x="190" y="251.5" fill="#C8C7C7" width="93.5" height="15.1"/>
+         <rect id="color5_1_" x="295.3" y="251.5" fill="#F5831F" width="51" height="15.1"/>
+         <rect id="color5_2_" x="358.1" y="251.5" fill="#F5831F" width="71.9" height="15.1"/>
+         <rect id="color3_21_" x="442" y="251.5" fill="#C8C7C7" width="50.7" height="15.1"/>
+         <rect id="color3_28_" x="504" y="251.5" fill="#C8C7C7" width="119.2" height="15.1"/>
+         <rect id="color3_31_" x="633.8" y="251.5" fill="#C8C7C7" width="51.2" height="15.1"/>
+         <rect id="color3_33_" x="697.3" y="251.5" fill="#C8C7C7" width="15.7" height="15.1"/>
+       </g>
+       <g id="line12">
+         <rect id="color1_6_" x="84.5" y="275.9" fill="#68CBE2" width="119" height="15.1"/>
+         <rect id="color3_38_" x="215.4" y="275.9" fill="#C8C7C7" width="50.3" height="15.1"/>
+         <rect id="color3_39_" x="277.4" y="275.9" fill="#C8C7C7" width="50.3" height="15.1"/>
+         <rect id="color3_42_" x="339.9" y="275.9" fill="#C8C7C7" width="71.8" height="15.1"/>
+         <rect id="color3_43_" x="423.3" y="275.9" fill="#C8C7C7" width="51.4" height="15.1"/>
+       </g>
+       <g id="line13">
+         <rect id="color3_45_" x="54" y="299.9" fill="#C8C7C7" width="72.6" height="15.1"/>
+         <rect id="color3_47_" x="137.7" y="299.9" fill="#C8C7C7" width="51" height="15.1"/>
+       </g>
+       <g id="line14">
+         <rect id="color3_52_" x="54" y="323.7" fill="#C8C7C7" width="118.6" height="15.1"/>
+         <rect id="color3_49_" x="184.9" y="323.7" fill="#C8C7C7" width="51" height="15.1"/>
+         <rect id="color3_53_" x="247.4" y="323.7" fill="#C8C7C7" width="16" height="15.1"/>
+         <rect id="color3_55_" x="275.5" y="323.7" fill="#C8C7C7" width="118.5" height="15.1"/>
+       </g>
+       <g id="line15">
+         <rect id="color1_13_" x="53.9" y="347.9" fill="#68CBE2" width="33.7" height="15.1"/>
+         <rect id="color3_57_" x="99" y="347.9" fill="#C8C7C7" width="93.3" height="15.1"/>
+       </g>
+       <g id="line16">
+         <rect id="color1_10_" x="53.9" y="372.2" fill="#68CBE2" width="119" height="15.1"/>
+       </g>
+       <g id="line17">
+         <rect id="color3_59_" x="53.9" y="396.2" fill="#C8C7C7" width="51.1" height="15.1"/>
+       </g>
+       <g id="line18">
+         <rect id="color2_1_" x="24" y="420.4" fill="#ED1261" width="172.1" height="15.1"/>
+         <rect id="color3_27_" x="207.4" y="420.4" fill="#C8C7C7" width="51.1" height="15.1"/>
+         <rect id="color3_131_" x="268.8" y="420.4" fill="#C8C7C7" width="96.5" height="15.1"/>
+         <rect id="color3_64_" x="375.4" y="420.4" fill="#C8C7C7" width="94.1" height="15.1"/>
+         <rect id="color3_65_" x="481" y="420.4" fill="#C8C7C7" width="51.1" height="15.1"/>
+         <rect id="color3_67_" x="543" y="420.4" fill="#C8C7C7" width="119.5" height="15.1"/>
+         <rect id="color3_69_" x="673.7" y="420.4" fill="#C8C7C7" width="51.5" height="15.1"/>
+       </g>
+       <g id="line19">
+         <rect id="color1_8_" x="24" y="444.5" fill="#68CBE2" width="50.7" height="15.1"/>
+         <rect id="color4_1_" x="86.2" y="444.5" fill="#9ECC3B" width="16.3" height="15.1"/>
+         <rect id="color4_5_" x="114.4" y="444.5" fill="#9ECC3B" width="50.3" height="15.1"/>
+         <rect id="color3_71_" x="176.4" y="444.5" fill="#C8C7C7" width="33.1" height="15.1"/>
+         <rect id="color3_73_" x="221.1" y="444.5" fill="#C8C7C7" width="144.1" height="15.1"/>
+         <rect id="color3_75_" x="376.6" y="444.5" fill="#C8C7C7" width="33.4" height="15.1"/>
+         <rect id="color3_77_" x="421.6" y="444.5" fill="#C8C7C7" width="33.4" height="15.1"/>
+       </g>
+       <g id="line20">
+         <rect id="color1_16_" x="24" y="468.3" fill="#68CBE2" width="16.3" height="15.1"/>
+         <rect id="color3_79_" x="51.6" y="468.3" fill="#C8C7C7" width="118.9" height="15.1"/>
+         <rect id="color3_81_" x="182.6" y="468.3" fill="#C8C7C7" width="50.3" height="15.1"/>
+       </g>
+       <g id="line21">
+         <rect id="color3_83_" x="24.2" y="492.8" fill="#C8C7C7" width="33.3" height="15.1"/>
+         <rect id="color3_85_" x="68.9" y="492.8" fill="#C8C7C7" width="143.9" height="15.1"/>
+         <rect id="color5_3_" x="224.3" y="492.8" fill="#F5831F" width="33.7" height="15.1"/>
+         <rect id="color5_6_" x="268.8" y="492.8" fill="#F5831F" width="33.7" height="15.1"/>
+         <rect id="color3_87_" x="314" y="492.8" fill="#C8C7C7" width="143.9" height="15.1"/>
+       </g>
+       <g id="line22">
+         <rect id="color3_89_" x="24" y="516.6" fill="#C8C7C7" width="50.7" height="15.1"/>
+       </g>
+       <g id="line23">
+         <rect id="color3_91_" x="54" y="540.8" fill="#C8C7C7" width="143.9" height="15.1"/>
+       </g>
+       <g id="line24">
+         <rect id="color1_18_" x="54" y="565.2" fill="#68CBE2" width="71.9" height="15.1"/>
+         <rect id="color3_94_" x="138.2" y="565.2" fill="#C8C7C7" width="32.3" height="15.1"/>
+       </g>
+       <g id="line25">
+         <rect id="color1_20_" x="54" y="588.9" fill="#68CBE2" width="33.6" height="15.1"/>
+       </g>
+       <g id="line26">
+         <rect id="color1_22_" x="54.7" y="613.2" fill="#68CBE2" width="171" height="15.1"/>
+         <rect id="color5_9_" x="237.5" y="613.2" fill="#F5831F" width="50.7" height="15.1"/>
+         <rect id="color3_95_" x="299.7" y="613.2" fill="#C8C7C7" width="94.5" height="15.1"/>
+       </g>
+       <g id="line27">
+         <rect id="color4_8_" x="54" y="637.5" fill="#9ECC3B" width="71.9" height="15.1"/>
+         <rect id="color3_97_" x="138.2" y="637.5" fill="#C8C7C7" width="32.3" height="15.1"/>
+         <rect id="color3_99_" x="182.7" y="637.5" fill="#C8C7C7" width="50.3" height="15.1"/>
+         <rect id="color3_101_" x="245.2" y="637.5" fill="#C8C7C7" width="94" height="15.1"/>
+         <rect id="color3_103_" x="350.9" y="637.5" fill="#C8C7C7" width="143.9" height="15.1"/>
+       </g>
+       <g id="line28">
+         <rect id="color2_3_" x="24" y="661.7" fill="#ED1261" width="33" height="15.1"/>
+         <rect id="color3_105_" x="69" y="661.7" fill="#C8C7C7" width="119" height="15.1"/>
+       </g>
+       <g id="line29">
+         <rect id="color4_10_" x="24" y="685.3" fill="#9ECC3B" width="71.9" height="15.1"/>
+       </g>
+       <g id="line30">
+         <rect id="color3_107_" x="24" y="709.7" fill="#C8C7C7" width="50.5" height="15.1"/>
+       </g>
+       <g id="line31">
+         <rect id="color3_109_" x="24" y="733.7" fill="#C8C7C7" width="16.5" height="15.1"/>
+       </g>
+       <g id="line32">
+         <rect id="color1_24_" x="54.7" y="758.2" fill="#68CBE2" width="50.6" height="15.1"/>
+         <rect id="color3_111_" x="116.6" y="758.2" fill="#C8C7C7" width="118.9" height="15.1"/>
+         <rect id="color3_113_" x="247.1" y="758.2" fill="#C8C7C7" width="72.3" height="15.1"/>
+         <rect id="color3_115_" x="330.9" y="758.2" fill="#C8C7C7" width="50.6" height="15.1"/>
+       </g>
+       <g id="line33">
+         <rect id="color3_117_" x="54.7" y="782.2" fill="#C8C7C7" width="71.5" height="15.1"/>
+         <rect id="color3_119_" x="138.1" y="782.2" fill="#C8C7C7" width="50.7" height="15.1"/>
+       </g>
+       <g id="line34">
+         <rect id="color1_26_" x="54.7" y="806.2" fill="#68CBE2" width="71.5" height="15.1"/>
+       </g>
+       <g id="line35">
+         <rect id="color1_28_" x="54.7" y="830.4" fill="#68CBE2" width="50.3" height="15.1"/>
+       </g>
+       <g id="line36">
+         <rect id="color3_121_" x="53.9" y="854.3" fill="#C8C7C7" width="16.4" height="15.1"/>
+       </g>
+       <g id="line37">
+        <rect id="color4_13_" x="24.1" y="878.5" fill="#9ECC3B" width="50.5" height="15.1"/>
+        <rect id="color3_123_" x="86.4" y="878.5" fill="#C8C7C7" width="33.3" height="15.1"/>
+        <rect id="color5_10_" x="130.8" y="878.5" fill="#F5831F" width="72.6" height="15.1"/>
+        <rect id="color3_125_" x="215.1" y="878.5" fill="#C8C7C7" width="143.4" height="15.1"/>
+      </g>
+      <g id="line38">
+        <rect id="color2_5_" x="24.1" y="902.7" fill="#ED1261" width="71.6" height="15.1"/>
+        <rect id="color3_127_" x="107.6" y="902.7" fill="#C8C7C7" width="50.9" height="15.1"/>
+      </g>
+      <g id="line39">
+        <rect id="color1_30_" x="24.1" y="926.8" fill="#68CBE2" width="71.6" height="15.1"/>
+      </g>
+      <g id="line40">
+        <rect id="color3_129_" x="24.1" y="950.9" fill="#C8C7C7" width="16.3" height="15.1"/>
+      </g>
+       </svg>
+       
+      </div>
+
+        <section id="home" class=" " style="height: 100%;">
+          <div class= "container" style="height: 100%;">
+            <div class="intro">
+
+                  <div class="contain">
+                      <span class="pretext" data-anim="fade" data-anim-delay="0.3">HI, I AM BEN</span>
+                    <h1 data-anim="block" data-anim-color="1" data-anim-delay="0.5" class="title">I am a <span>Web Developer</span>.</h1>
+                    <p data-anim="totop" data-anim-delay="1.2" data-anim-dur="1.3">I am a designer and developer able to do various of tasks
+                      on the internet, mostly websites.</p>
+                    <div class="btn more pointer" data-anim="totop" data-anim-delay="1.6" data-anim-dur="1.5">
+                      <div class="circle"></div>
+                      <div class="btntext"><a onclick=""><span>MORE ABOUT ME</span> <i class="fas fa-long-arrow-alt-right"></i></a></div>
+                    </div>
+                  </div>
+              
+              
+            </div>
+          </div>
+        </section>
+        <div class="scrolltext">
+          <div><i style="color: white" class="fas fa-chevron-down fa-lg"></i></div>
+          
+        </div>
+      </div>
+      
+      <div class="sidebar">
+        <div class="topbar">
+          <a>
+              <svg class="logo matchbgcolor" style="opacity: 0"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 170 70" enable-background="new 0 0 170 70" xml:space="preserve">
+           <g id="logorect">
+             
+               <rect id="XMLID_1_" x="9.7" y="9.5" fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" width="152" height="51"/>
+           </g>
+           <g id="logoletters">
+             <text fill="#fff" num="7" transform="matrix(1 0 0 1 144.4375 45.0013)" font-family="'Asap'" font-size="31px">.</text>
+             <text fill="#fff" num="6" transform="matrix(1 0 0 1 134.6042 44.9997)" font-family="'Asap'" font-size="31px">I</text>
+             <text fill="#fff" num="5" transform="matrix(1 0 0 1 113.9375 45)" font-family="'Asap'" font-size="31px">V</text>
+             <text fill="#fff" num="4" transform="matrix(1 0 0 1 95.7708 44.9997)" font-family="'Asap'" font-size="31px">E</text>
+             <text fill="#fff" num="3" transform="matrix(1 0 0 1 80.1042 45.001)" font-family="'Asap'" font-size="31px">L</text>
+             <text fill="#fff" num="2" transform="matrix(1 0 0 1 56.2708 44.9997)" font-family="'Asap'" font-size="31px">N</text>
+             <text fill="#fff" num="1" transform="matrix(1 0 0 1 37.9375 45.0006)" font-family="'Asap'" font-size="31px">E</text>
+             <text fill="#fff" num="0" transform="matrix(1 0 0 1 18.9375 45)" font-family="'Asap'" font-size="31px">B</text>
+           </g>
+           </svg>
+           
+           
+              
+          </a>
+        </div>
+        <div class="bottombar">
+          <div class="contain">
+            <!----a href="#">
+              <i class="fab fa-instagram fa-lg matchbgcolor" style="color: white"></i>
+            </a-->
+            <a href="https://www.linkedin.com/in/ben-levi-3158a0185/">
+              <i class="fab fa-linkedin-in fa-lg matchbgcolor" style="color: white"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      
+      <section id="about" class="section bl-viewport-height" style="">
+        <div class="sidetext">
+          <p key="2">WHAT I DO</p>
+        </div>
+        <div class="bg-text is-hidden-mobile">
+            <div>
+              <p>I DO</p>
+            </div>
+          </div>
+        <div class="container ">
+          <h2 data-anim="block" class="title">MY <span>SERVICES</span></h2>
+          <p class="about-intro">
+            Whether you are looking for a website to give your company a web presence, or an ecommerce store to get your business selling online, get in <a class="tocontact">touch</a> and I can help.
+          </p>
+          <div class="services">
+            <div class="columns">
+              <div class="column first-half">
+                  <div class="service">
+                      <div class="service-image">
+                        <div>
+                          <svg  data-anim="totop" version="1.1" id="service_develop" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                          y="0px" viewBox="65 -42 146 100" enable-background="new 65 -42 146 100" xml:space="preserve">
+                       <g id="develop" transform="translate(-63.5 -74.9)">
+                         <path id="XMLID_1_" fill="#CCFFD7" d="M244.6,83.7c13,0,23.6,10.5,23.6,23.6s-10.5,23.6-23.6,23.6S221,120.4,221,107.3
+                           S231.6,83.7,244.6,83.7L244.6,83.7z"/>
+                         <path id="XMLID_54_" fill="#CCFFD7" d="M241.2,110.3h-99.6c-0.7,0-1.3-0.6-1.3-1.3V34.1c0-0.7,0.6-1.3,1.3-1.3h99.6
+                           c0.7,0,1.3,0.6,1.3,1.3V109C242.5,109.7,241.9,110.2,241.2,110.3z"/>
+                         <g id="XMLID_2_" transform="translate(63.5 83.341)">
+                           <g id="XMLID_3_">
+                             <g id="XMLID_52_" transform="translate(157.348 91.167)">
+                               <path id="XMLID_53_" fill="#34D559" d="M20.1-41.7c-11.3,0-21-7.9-23.3-19c-0.1-0.6,0.3-1.1,0.8-1.2c0.6-0.1,1.1,0.3,1.2,0.8
+                                 l0,0c2.4,11.7,13.9,19.3,25.6,16.9s19.3-13.9,16.9-25.6c-2.1-10.1-10.9-17.3-21.2-17.3c-1.6,0-3.2,0.2-4.7,0.5
+                                 c-0.6,0.1-1.2-0.2-1.3-0.8c-0.1-0.6,0.2-1.2,0.8-1.3l0,0c1.7-0.4,3.4-0.5,5.2-0.5C33.2-89.3,44-78.7,44-65.5
+                                 S33.5-41.6,20.3-41.6C20.3-41.7,20.2-41.7,20.1-41.7z"/>
+                             </g>
+                             <g id="XMLID_50_" transform="translate(181.801 91.167)">
+                               <path id="XMLID_51_" fill="#34D559" d="M-4.3-41.7c-5.1,0-9.4-7.9-10.5-19.1c-0.1-0.6,0.4-1.1,1-1.2c0.6,0,1.1,0.4,1.2,1
+                                 c0.8,9.8,4.4,17.1,8.3,17.1c4.1,0,8.5-8.7,8.5-21.7s-4.4-21.7-8.5-21.7c-1.8,0-3.1,1.5-4.1,2.8c-0.3,0.5-1,0.6-1.5,0.3
+                                 s-0.6-1-0.3-1.5l0,0c1.7-2.5,3.7-3.8,5.8-3.8C1.5-89.5,6.2-79,6.2-65.7C6.3-52.2,1.6-41.7-4.3-41.7z"/>
+                             </g>
+                             <g id="XMLID_46_">
+                               <path id="XMLID_47_" fill="#34D559" d="M172.5,31.4H72.4c-0.6,0-1.1-0.5-1.1-1.1l0,0V-45c0-0.6,0.5-1.1,1.1-1.1l0,0h100.1
+                                 c0.6,0,1.1,0.5,1.1,1.1l0,0v75.3C173.6,30.9,173.2,31.3,172.5,31.4C172.6,31.4,172.6,31.4,172.5,31.4z M73.5,29.2h98V-44h-98
+                                 V29.2z"/>
+                             </g>
+                             <g id="XMLID_24_" transform="translate(40.778 111.556)">
+                               <path id="XMLID_25_" fill="#34D559" d="M110.3-96.8H53.2c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1h57.1c0.6,0,1.1,0.5,1.1,1.1
+                                 C111.3-97.3,110.9-96.8,110.3-96.8L110.3-96.8z"/>
+                             </g>
+                             <g id="XMLID_22_" transform="translate(0 32.077)">
+                               <path id="XMLID_23_" fill="#34D559" d="M172.5-59.1H72.4c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1h100.1c0.6,0,1.1,0.5,1.1,1.1
+                                 S173.2-59.1,172.5-59.1L172.5-59.1z"/>
+                             </g>
+                             <g id="XMLID_18_" transform="translate(13.896 10.389)">
+                               <path id="XMLID_19_" fill="#34D559" d="M68.7-43.2c-2.1,0-3.9-1.7-3.9-3.9l0,0c0-2.1,1.8-3.9,3.9-3.9s3.9,1.7,3.9,3.9l0,0
+                                 C72.6-45,70.8-43.3,68.7-43.2z M68.7-48.9c-1,0-1.8,0.8-1.8,1.8s0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8C70.4-48.1,69.7-48.9,68.7-48.9
+                                 L68.7-48.9z"/>
+                             </g>
+                             <g id="XMLID_14_" transform="translate(37.402 10.389)">
+                               <path id="XMLID_15_" fill="#34D559" d="M57.5-43.2c-2.1,0-3.9-1.7-3.9-3.9l0,0c0-2.1,1.8-3.9,3.9-3.9c2.1,0,3.9,1.7,3.9,3.9l0,0
+                                 C61.4-45,59.7-43.3,57.5-43.2z M57.5-48.9c-1,0-1.8,0.8-1.8,1.8s0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8l0,0
+                                 C59.3-48.1,58.5-48.9,57.5-48.9L57.5-48.9z"/>
+                             </g>
+                             <g id="XMLID_12_" transform="translate(84.543 15.714)">
+                               <path id="XMLID_13_" fill="#34D559" d="M88-51.4H32.4c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1H88c0.6,0,1.1,0.5,1.1,1.1
+                                 S88.6-51.4,88-51.4L88-51.4z"/>
+                             </g>
+                             <g id="XMLID_10_" transform="translate(199.605 91.037)">
+                               <path id="XMLID_11_" fill="#34D559" d="M-22.1-41.6c-0.6,0-1.1-0.5-1.1-1.1l0,0v-45.5c0-0.6,0.5-1.1,1.1-1.1s1.1,0.5,1.1,1.1
+                                 v45.5C-21-42.1-21.5-41.6-22.1-41.6L-22.1-41.6z"/>
+                             </g>
+                             <g id="XMLID_8_" transform="translate(190.255 134.282)">
+                               <path id="XMLID_9_" fill="#34D559" d="M10-107.6h-27.7c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1H10c0.6,0,1.1,0.5,1.1,1.1
+                                 C11-108.1,10.6-107.6,10-107.6z"/>
+                             </g>
+                             <g id="XMLID_6_" transform="translate(190.371 109.932)">
+                               <path id="XMLID_7_" fill="#34D559" d="M-13.2-93.3c-1.6,0-3.1-0.1-4.6-0.2c-0.6-0.1-1-0.6-1-1.2c0.1-0.6,0.6-1,1.2-1
+                                 c7.9,0.5,15.8-0.4,23.4-2.6c0.6-0.2,1.1,0.2,1.3,0.8s-0.2,1.1-0.8,1.3C-0.1-94.3-6.7-93.3-13.2-93.3z"/>
+                             </g>
+                             <g id="XMLID_4_" transform="translate(163.908 150.158)">
+                               <path id="XMLID_5_" fill="#34D559" d="M-5.2-112.2c-0.5,0-0.9-0.3-1-0.8c-0.2-0.6,0.1-1.2,0.7-1.4c12.4-3.9,24.9-3.9,38.1,0
+                                 c0.6,0.2,0.9,0.7,0.8,1.3s-0.7,0.9-1.3,0.8c-12.9-3.8-24.9-3.8-36.9,0C-5-112.3-5.1-112.2-5.2-112.2z"/>
+                             </g>
+                           </g>
+                         </g>
+                       </g>
+                       <rect class="rect_bar" x="94.9" y="4.1" fill="none" stroke="#34D559" stroke-width="2" stroke-miterlimit="10" width="6.2" height="14.1"/>
+                       <rect class="rect_bar" x="142.8" y="2.4" fill="none" stroke="#34D559" stroke-width="2" stroke-miterlimit="10" width="6.2" height="15.9"/>
+                       <rect class="rect_bar" x="119.4" y="-1.9" fill="none" stroke="#34D559" stroke-width="2" stroke-miterlimit="10" width="6.2" height="20.1"/>
+                       <rect class="rect_bar" x="131.3" y="-4.3" fill="none" stroke="#34D559" stroke-width="2" stroke-miterlimit="10" width="6.2" height="22.5"/>
+                       <rect class="rect_bar" x="107.3" y="-4.3" fill="none" stroke="#34D559" stroke-width="2" stroke-miterlimit="10" width="6.2" height="22.5"/>
+                       </svg>
+                       
+                         
+                            
+                        </div>
+                      </div>
+                      <div class="service-title">
+                        <h3 data-anim="totop" data-anim-delay="0.2" data-anim-link="service_develop">web design & development</h3>
+                      </div>
+                      <div class="service-text">
+                        <p data-anim="totop" data-anim-delay="0.4" data-anim-link="service_develop">
+                          I build and design beautiful looking websites to achieve your online goals. I'm passionate about creating simple, yet powerful designs using today's latest web technologies. I specialize in front-end development, and like to build my websites from scratch, without any platforms. I fully devote myself to my creations, and love what I do.                       </p>
+                      </div>
+                  </div>
+                  <div class="gap"></div>
+                  <div class="service maintenance">
+                      <div class="service-image">
+                        <div>
+                          <svg data-anim="totop" version="1.1" height="95" id="service_maintenance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px" y="0px" viewBox="54 -39 124.8 95" enable-background="new 54 -39 124.8 95" xml:space="preserve">
+                       <g id="maintenance" transform="translate(-50 -55.2)">
+                         <rect id="XMLID_19_" x="110.1" y="16.2" fill="#CCFFD7" width="108.8" height="89.4"/>
+                         <g id="XMLID_20_">
+                           <g id="XMLID_21_">
+                             <g id="XMLID_54_">
+                               <path id="XMLID_55_" fill="#34D559" d="M212,111.2H104.9c-0.5,0-0.9-0.4-0.9-0.9l0,0V21c0-0.5,0.4-0.9,0.9-0.9l0,0H212
+                                 c0.5,0,0.9,0.4,0.9,0.9l0,0v89.3C212.9,110.8,212.5,111.2,212,111.2L212,111.2z M105.8,109.4H211V21.9H105.7v87.5H105.8z"/>
+                             </g>
+                             <g id="XMLID_50_">
+                               <path id="XMLID_51_" fill="#34D559" d="M212,111.2h-47.5c-0.3,0-0.6-0.2-0.8-0.4l-0.3-0.6c-0.2-0.4-0.1-0.9,0.2-1.2l6.9-5.5
+                                 c-0.5-1.3-0.8-2.7-1.1-4l-8.7-1.3c-0.4-0.1-0.8-0.4-0.8-0.9v-4.2c0-0.4,0.3-0.8,0.8-0.9l8.7-1.3c0.2-1.4,0.6-2.7,1.1-4l-6.9-5.5
+                                 c-0.3-0.3-0.4-0.8-0.2-1.2l2.4-4.2c0.2-0.4,0.7-0.6,1.1-0.4l8.2,3.2c0.9-1.1,1.9-2,2.9-2.9l-3.2-8.2c-0.2-0.4,0-0.9,0.4-1.1
+                                 l4.2-2.4c0.4-0.2,0.9-0.1,1.2,0.2l5.5,6.9c1.3-0.5,2.6-0.8,4-1.1l1.3-8.7c0.1-0.4,0.4-0.8,0.9-0.8h4.9c0.4,0,0.8,0.3,0.9,0.8
+                                 l1.3,8.7c1.4,0.3,2.7,0.6,4,1.1l5.5-6.9c0.3-0.3,0.8-0.4,1.2-0.2l2.5,1.4c0.3,0.2,0.4,0.5,0.4,0.8v5.4c0,0.1,0,0.2-0.1,0.3
+                                 l-1.5,3.8c0.4,0.4,0.9,0.7,1.3,1.2c0.2,0.2,0.3,0.4,0.3,0.7v32.6C212.9,110.8,212.5,111.2,212,111.2z M165.9,109.4H211V78.1
+                                 c-0.4-0.4-0.9-0.8-1.4-1.2c-0.3-0.2-0.4-0.6-0.3-1l1.7-4.2v-4.8l-1.4-0.8l-5.4,6.8c-0.2,0.3-0.7,0.4-1.1,0.3
+                                 c-1.6-0.6-3.2-1.1-4.9-1.3c-0.4-0.1-0.7-0.4-0.7-0.8l-1.3-8.6h-3.3l-1.3,8.6c-0.1,0.4-0.3,0.7-0.7,0.8c-1.7,0.3-3.3,0.7-4.9,1.3
+                                 c-0.4,0.2-0.8,0.1-1.1-0.3l-5.4-6.8l-2.9,1.7l3.2,8.1c0.2,0.4,0.1,0.8-0.3,1c-1.3,1.1-2.5,2.3-3.6,3.6c-0.3,0.3-0.7,0.4-1.1,0.3
+                                 l-8.1-3.2l-1.7,2.9l6.8,5.4c0.3,0.2,0.4,0.6,0.3,1c-0.6,1.6-1,3.2-1.3,4.9c-0.1,0.4-0.4,0.7-0.8,0.8l-8.6,1.3v2.7l8.6,1.3
+                                 c0.4,0.1,0.7,0.4,0.8,0.8c0.2,1.7,0.7,3.3,1.3,4.9c0.1,0.4,0,0.8-0.3,1L165.9,109.4z"/>
+                             </g>
+                             <g id="XMLID_48_">
+                               <path id="XMLID_14_" fill="#34D559" d="M212,40H104.9c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9l0,0H212c0.5,0,0.9,0.4,0.9,0.9
+                                 S212.5,40,212,40L212,40z"/>
+                             </g>
+                             <g id="XMLID_44_">
+                               <path id="XMLID_45_" fill="#34D559" d="M115.7,33.8c-2.2,0-3.9-1.8-3.9-3.9s1.8-3.9,3.9-3.9c2.2,0,3.9,1.8,3.9,3.9l0,0
+                                 C119.6,32,117.9,33.8,115.7,33.8C115.7,33.8,115.7,33.8,115.7,33.8z M115.7,27.8c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2
+                                 s2.2-1,2.2-2.2S116.9,27.8,115.7,27.8z"/>
+                             </g>
+                             <g id="XMLID_40_">
+                               <path id="XMLID_41_" fill="#34D559" d="M128.9,33.8c-2.2,0-3.9-1.8-3.9-3.9s1.8-3.9,3.9-3.9c2.1,0,3.9,1.8,3.9,3.9l0,0
+                                 c0,2.1-1.7,3.9-3.8,3.9C128.9,33.8,128.9,33.8,128.9,33.8z M128.9,27.8c-1.2,0-2.1,0.9-2.2,2.1c0,0,0,0,0,0.1
+                                 c0,1.2,1,2.2,2.2,2.2s2.2-1,2.2-2.2C131,28.7,130.1,27.8,128.9,27.8L128.9,27.8z"/>
+                             </g>
+                             <g id="XMLID_38_">
+                               <path id="XMLID_9_" fill="#34D559" d="M212,30.8h-59.5c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9l0,0H212c0.5,0,0.9,0.4,0.9,0.9
+                                 S212.5,30.8,212,30.8L212,30.8z"/>
+                             </g>
+                             <g id="XMLID_34_">
+                               <path id="XMLID_35_" fill="#34D559" d="M199.1,54.1h-81.3c-0.5,0-0.9-0.4-0.9-0.9l0,0v-5.6c0-0.5,0.4-0.9,0.9-0.9l0,0h81.3
+                                 c0.5,0,0.9,0.4,0.9,0.9l0,0v5.6C200,53.7,199.6,54.1,199.1,54.1z M118.6,52.3h79.5v-3.8h-79.5V52.3z"/>
+                             </g>
+                           </g>
+                         </g>
+                       </g>
+                       <rect class="rect_bar" x="66.9" y="8.5" fill="#34D559" width="48.8" height="1"/>
+                       <rect class="rect_bar" x="66.9" y="14.1" fill="#34D559" width="20" height="1"/>
+                       <rect class="rect_bar" x="66.9" y="19.4" fill="#34D559" width="40.5" height="1"/>
+                       <rect class="rect_bar" x="66.9" y="25.3" fill="#34D559" width="32.3" height="1"/>
+                       <rect class="rect_bar" x="66.9" y="31" fill="#34D559" width="37.2" height="1"/>
+                       <rect class="rect_bar" x="66.9" y="37.6" fill="#34D559" width="40.5" height="1"/>
+                       </svg>
+                       
+                        </div>
+                      </div>
+                      <div class="service-title">
+                        <h3 data-anim="totop"  data-anim-delay="0.2" data-anim-link="service_maintenance">maintenance</h3>
+                      </div>
+                      <div class="service-text">
+                          <p data-anim="totop" data-anim-delay="0.4" data-anim-link="service_maintenance">
+                            I provide high quality maintenance and support for my clients in various of subjects, mostly (but not limited) to websites I have created. I ensure the website stands with today's latest technology, as this industry rapidly evolves from day to day and requires frequent maintenance.                         </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="column second-half">
+                  <div class="big gap"></div>
+                  <div class="service">
+                      <div class="service-image">
+                        <div>
+                            <svg data-anim="totop" version="1.1" id="service_responsive" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" viewBox="-233 347 143.3 100" style="enable-background:new -233 347 143.3 100;" xml:space="preserve">
+                         <style type="text/css">
+                           .st0{fill:#CCFFD7;}
+                           .st1{fill:#34D559;}
+                         </style>
+                         <g id="responsive" transform="translate(-39.2 -67.8)">
+                           <path id="XMLID_63_" class="st0" d="M-108.6,509.7h46.4c2.4,0,4.4-2,4.4-4.4v-86.1c0-2.4-2-4.4-4.4-4.4h-46.4c-2.4,0-4.4,2-4.4,4.4
+                             v86C-113,507.6-111,509.6-108.6,509.7L-108.6,509.7z"/>
+                           <path id="XMLID_64_" class="st0" d="M-84.9,505.1v-46.4c0-2.4-2-4.4-4.4-4.4h-86.1c-2.4,0-4.4,2-4.4,4.4v46.4c0,2.4,2,4.4,4.4,4.4
+                             h86C-86.9,509.5-84.9,507.5-84.9,505.1L-84.9,505.1z"/>
+                           <g id="XMLID_2_">
+                             <g id="XMLID_3_">
+                               <g id="XMLID_60_">
+                                 <path id="XMLID_61_" class="st1" d="M-107.1,514.8h-73.1c-3.5,0-6.3-2.8-6.3-6.3l0,0v-42.6c0-3.5,2.8-6.3,6.3-6.3l0,0h62.1
+                                   c0.6,0,1,0.5,1,1c0,0.6-0.4,1-1,1h-62.1c-2.4,0-4.3,1.9-4.3,4.3v42.6c0,2.4,1.9,4.3,4.3,4.3h73.1c0.5,0,1,0.4,1,1l0,0
+                                   C-106.1,514.3-106.6,514.8-107.1,514.8z"/>
+                               </g>
+                               <path class="st1" d="M-74.8,445.6h-33.5c-0.5,0-0.9-0.4-0.9-0.9l0,0c0-0.5,0.4-0.9,0.9-0.9h33.5c0.5,0,0.9,0.4,0.9,0.9l0,0
+                                 C-73.9,445.2-74.3,445.6-74.8,445.6z"/>
+                               <path class="st1" d="M-74.8,456.6h-33.5c-0.5,0-0.9-0.4-0.9-0.9l0,0c0-0.5,0.4-0.9,0.9-0.9h33.5c0.5,0,0.9,0.4,0.9,0.9l0,0
+                                 C-73.9,456.2-74.3,456.6-74.8,456.6z"/>
+                               <g id="XMLID_56_">
+                                 <path id="XMLID_57_" class="st1" d="M-70.2,514.8h-42.6c-3.5,0-6.3-2.8-6.3-6.3l0,0v-82.2c0-3.5,2.8-6.3,6.3-6.3l0,0h42.6
+                                   c3.5,0,6.3,2.8,6.3,6.3l0,0v82.2C-63.9,511.9-66.7,514.8-70.2,514.8z M-112.8,422c-2.4,0-4.3,1.9-4.3,4.3v82.2
+                                   c0,2.4,1.9,4.3,4.3,4.3h42.6c2.4,0,4.3-1.9,4.3-4.3v-82.2c0-2.4-1.9-4.3-4.3-4.3C-70.2,422-112.8,422-112.8,422z"/>
+                               </g>
+                               <g id="XMLID_52_">
+                                 <path id="XMLID_53_" class="st1" d="M-91.5,509.7c-2.6,0-4.6-2.1-4.6-4.6s2.1-4.6,4.6-4.6s4.6,2.1,4.6,4.6
+                                   S-88.9,509.7-91.5,509.7z M-91.5,502.4c-1.4,0-2.6,1.1-2.6,2.6c0,1.4,1.1,2.6,2.6,2.6c1.4,0,2.6-1.1,2.6-2.6
+                                   c0.1-1.4-1-2.6-2.4-2.6C-91.4,502.4-91.4,502.4-91.5,502.4z"/>
+                               </g>
+                               <g id="XMLID_48_">
+                                 <path id="XMLID_49_" class="st1" d="M-69.7,497h-43.7c-0.5,0-1-0.4-1-1l0,0v-62.4c0-0.5,0.4-1,1-1l0,0h43.7c0.5,0,1,0.4,1,1l0,0
+                                   V496C-68.7,496.5-69.1,497-69.7,497L-69.7,497z M-112.3,495h41.7v-60.4h-41.7V495z"/>
+                               </g>
+                               <g id="XMLID_44_">
+                                 <path id="XMLID_45_" class="st1" d="M-83.9,428.8h-2.9c-0.6,0-1-0.4-1-1s0.4-1,1-1l0,0h2.9c0.5,0,1,0.4,1,1l0,0
+                                   C-82.9,428.3-83.4,428.8-83.9,428.8z M-88.9,428.8h-10.2c-0.6,0-1-0.4-1-1s0.4-1,1-1l0,0h10.2c0.5,0,1,0.4,1,1l0,0
+                                   C-87.9,428.3-88.4,428.8-88.9,428.8z"/>
+                               </g>
+                               <g id="XMLID_40_">
+                                 <path id="XMLID_41_" class="st1" d="M-118.1,510h-54.8c-0.5,0-1-0.4-1-1l0,0v-43.7c0-0.5,0.4-1,1-1l0,0h54.8c0.5,0,1,0.4,1,1
+                                   l0,0V509C-117.1,509.5-117.5,510-118.1,510L-118.1,510z M-171.9,508h52.8v-41.7h-52.8V508z"/>
+                               </g>
+                               <g id="XMLID_36_">
+                                 <path id="XMLID_37_" class="st1" d="M-178.7,495.7c-0.5,0-1-0.4-1-1l0,0v-10.2c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v10.2
+                                   C-177.7,495.3-178.1,495.7-178.7,495.7L-178.7,495.7z M-178.7,483.5c-0.5,0-1-0.4-1-1l0,0v-2.9c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1
+                                   l0,0v2.9C-177.7,483-178.1,483.5-178.7,483.5L-178.7,483.5z"/>
+                               </g>
+                               <g id="slider_1_" class="slider1">
+                                 <path id="XMLID_29_" class="st1" d="M-101.4,448.3c-2,0-3.6-1.6-3.6-3.6s1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6
+                                   C-97.7,446.7-99.3,448.3-101.4,448.3L-101.4,448.3z M-101.4,443c-0.9,0-1.6,0.7-1.6,1.6s0.7,1.6,1.6,1.6c0.9,0,1.6-0.7,1.6-1.6
+                                   C-99.7,443.8-100.4,443-101.4,443C-101.3,443-101.3,443-101.4,443z"/>
+                                 <circle class="st0" cx="-101.4" cy="444.6" r="1.6"/>
+                               </g>
+                               <g id="slider" class="slider2">
+                                 <path id="XMLID_21_" class="st1" d="M-91.5,459.3c-2,0-3.6-1.6-3.6-3.6s1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6S-89.5,459.3-91.5,459.3
+                                   L-91.5,459.3z M-91.5,454.1c-0.9,0-1.6,0.7-1.6,1.6s0.7,1.6,1.6,1.6s1.6-0.7,1.6-1.6C-89.8,454.8-90.5,454.1-91.5,454.1
+                                   C-91.4,454.1-91.5,454.1-91.5,454.1z"/>
+                                 <circle class="st0" cx="-91.4" cy="455.7" r="1.6"/>
+                               </g>
+                               <g id="XMLID_16_">
+                                 <path id="XMLID_17_" class="st1" d="M-91.5,492.2c-8.6,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6l0,0
+                                   C-75.9,485.2-82.9,492.2-91.5,492.2z M-91.5,463c-7.5,0-13.6,6.1-13.6,13.6s6.1,13.6,13.6,13.6s13.6-6.1,13.6-13.6
+                                   C-77.9,469.1-84,463-91.5,463L-91.5,463z"/>
+                               </g>
+                               <g id="XMLID_12_">
+                                 <path id="XMLID_13_" class="st1" d="M-91.5,492.2c-4.8,0-8.5-6.8-8.5-15.6c0-8.7,3.7-15.6,8.5-15.6c4.8,0,8.5,6.8,8.5,15.6
+                                   C-83,485.4-86.7,492.2-91.5,492.2z M-91.5,463c-3.5,0-6.5,6.2-6.5,13.6s2.9,13.6,6.5,13.6s6.5-6.2,6.5-13.6
+                                   C-85,469.3-88,463-91.5,463z"/>
+                               </g>
+                               <g id="XMLID_10_">
+                                 <path id="XMLID_11_" class="st1" d="M-76.9,477.6h-29.2c-0.6,0-1-0.5-1-1c0-0.6,0.4-1,1-1h29.2c0.6,0,1,0.5,1,1
+                                   C-75.9,477.1-76.3,477.6-76.9,477.6z"/>
+                               </g>
+                               <g id="XMLID_8_">
+                                 <path id="XMLID_9_" class="st1" d="M-91.5,492.2c-0.5,0-1-0.4-1-1l0,0V462c0-0.6,0.5-1,1-1c0.6,0,1,0.4,1,1v29.2
+                                   C-90.5,491.7-90.9,492.2-91.5,492.2L-91.5,492.2z"/>
+                               </g>
+                               <g id="XMLID_6_">
+                                 <path id="XMLID_7_" class="st1" d="M-91.4,471.1c-4.1,0-8.3-0.7-12.2-2.1c-0.5-0.2-0.8-0.7-0.6-1.3c0.2-0.5,0.7-0.8,1.3-0.6
+                                   c7.5,2.6,15.6,2.6,23,0c0.5-0.2,1.1,0.1,1.3,0.6c0.2,0.5-0.1,1.1-0.6,1.3C-83.2,470.4-87.3,471.1-91.4,471.1z"/>
+                               </g>
+                               <g id="XMLID_4_">
+                                 <path id="XMLID_5_" class="st1" d="M-103.3,485.9c-0.4,0-0.8-0.3-0.9-0.7c-0.2-0.5,0.1-1.1,0.6-1.2l0,0c7.9-2.7,16.4-2.7,24.3,0
+                                   c0.5,0.2,0.8,0.7,0.6,1.3c-0.2,0.5-0.7,0.8-1.3,0.6c-7.5-2.6-15.6-2.6-23,0C-103.1,485.8-103.2,485.9-103.3,485.9z"/>
+                               </g>
+                             </g>
+                           </g>
+                         </g>
+                         </svg>
+                         
+                         
+                            
+                        </div>
+                      </div>
+                      <div class="service-title">
+                        <h3 data-anim="totop" data-anim-delay="0.2" data-anim-link="service_responsive">responsive design</h3>
+                      </div>
+                      <div class="service-text">
+                          <p data-anim="totop" data-anim-delay="0.4" data-anim-link="service_responsive">
+                            As name suggests, I create websites optimized for the viewer's device. A website must be properly viewed on a wide variety of screens, from mobile phones to large TVs. In my opinion, mobile usability is a key factor, I take it into account when building websites, as most of the internet users use their mobile phone to surf the web.                         </p>
+                      </div>
+                  </div>
+                  <div class="gap"></div>
+                  <div class="service">
+                      <div class="service-image">
+                        <div>
+                            <svg data-anim="totop" id="service_automation" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 177.4 184">
+                              <g id="automation" transform="translate(-65.3 -49.8)">
+                                <g id="XMLID_75_">
+                                  <g id="XMLID_85_">
+                                    <g id="gearanim">
+                                        
+                                      <path id="XMLID_100_" d="M239.8,129.8v7.8L218,140.9a1.49,1.49,0,0,0-1.2,1.2,62.754,62.754,0,0,1-3.3,12.2,1.534,1.534,0,0,0,.4,1.7l17.2,13.7-4.7,8.2-20.5-8.1a1.534,1.534,0,0,0-1.7.4,58.242,58.242,0,0,1-9,8.9,1.388,1.388,0,0,0-.4,1.7l8.1,20.5-8.2,4.7L181,188.8a1.574,1.574,0,0,0-1.7-.5,62.754,62.754,0,0,1-12.2,3.3,1.49,1.49,0,0,0-1.2,1.2l-3.3,21.8h-9.4l-3.3-21.8a1.49,1.49,0,0,0-1.2-1.2,51.212,51.212,0,0,1-12.2-3.3,1.574,1.574,0,0,0-1.7.5L121.1,206l-8.2-4.7,8.1-20.5a1.534,1.534,0,0,0-.4-1.7,58.242,58.242,0,0,1-8.9-9,1.388,1.388,0,0,0-1.7-.4l-20.5,8.1-4.7-8.2L102,156a1.388,1.388,0,0,0,.4-1.7,62.755,62.755,0,0,1-3.3-12.2,1.49,1.49,0,0,0-1.2-1.2l-21.8-3.3v-7.8l21.8-3.2a1.49,1.49,0,0,0,1.2-1.2,65.721,65.721,0,0,1,3.3-12.3,1.377,1.377,0,0,0-.5-1.6L84.8,97.7l4.7-8.2L110,97.6a1.731,1.731,0,0,0,1.7-.4,62.387,62.387,0,0,1,8.9-8.9,1.388,1.388,0,0,0,.4-1.7l-8-20.5,8.2-4.7,13.7,17.2a1.388,1.388,0,0,0,1.7.4,64.734,64.734,0,0,1,12.2-3.3,1.49,1.49,0,0,0,1.2-1.2l3.3-21.8h9.4L166,74.5a1.49,1.49,0,0,0,1.2,1.2A62.754,62.754,0,0,1,179.4,79a1.534,1.534,0,0,0,1.7-.4l13.7-17.2,8.2,4.7-8.1,20.5a1.534,1.534,0,0,0,.4,1.7,58.242,58.242,0,0,1,9,8.9,1.388,1.388,0,0,0,1.7.4l20.5-8.1,4.7,8.2L214,111.4a1.281,1.281,0,0,0-.4,1.6,61.847,61.847,0,0,1,3.3,12.3,1.49,1.49,0,0,0,1.2,1.2Z" fill="#CCFFD7"/>
+                                      <path id="XMLID_79_" d="M181.1,188.9l13.7,17.2,8.2-4.7-8.1-20.5a1.534,1.534,0,0,1,.4-1.7,58.243,58.243,0,0,0,9-8.9,1.388,1.388,0,0,1,1.7-.4l20.5,8.1,4.7-8.2L213.9,156a1.388,1.388,0,0,1-.4-1.7,62.754,62.754,0,0,0,3.3-12.2,1.49,1.49,0,0,1,1.2-1.2l21.8-3.3v-7.8L218,126.5a1.49,1.49,0,0,1-1.2-1.2,65.721,65.721,0,0,0-3.3-12.3,1.344,1.344,0,0,1,.4-1.6l17.2-13.7-4.7-8.2-20.5,8.1a1.731,1.731,0,0,1-1.7-.4,58.242,58.242,0,0,0-9-8.9,1.388,1.388,0,0,1-.4-1.7l8.1-20.5-8.2-4.7L181,78.6a1.388,1.388,0,0,1-1.7.4,64.734,64.734,0,0,0-12.2-3.3,1.49,1.49,0,0,1-1.2-1.2l-3.3-21.8h-9.4L150,74.5a1.49,1.49,0,0,1-1.2,1.2A56.393,56.393,0,0,0,136.6,79a1.534,1.534,0,0,1-1.7-.4L121.2,61.4,113,66.1l8.1,20.5a1.731,1.731,0,0,1-.4,1.7,53.528,53.528,0,0,0-8.9,8.9,1.388,1.388,0,0,1-1.7.4L89.6,89.5l-4.7,8.2,17.2,13.7a1.47,1.47,0,0,1,.5,1.6,61.847,61.847,0,0,0-3.3,12.3,1.49,1.49,0,0,1-1.2,1.2l-21.8,3.2v7.8l21.8,3.3a1.49,1.49,0,0,1,1.2,1.2,62.754,62.754,0,0,0,3.3,12.2,1.731,1.731,0,0,1-.4,1.7L85,169.6l4.7,8.2,20.5-8.1a1.534,1.534,0,0,1,1.7.4,58.242,58.242,0,0,0,8.9,9,1.388,1.388,0,0,1,.4,1.7l-8.1,20.5,8.2,4.7L135,188.8a1.574,1.574,0,0,1,1.7-.5,64.733,64.733,0,0,0,12.2,3.3,1.49,1.49,0,0,1,1.2,1.2l3.3,21.8h9.4l3.3-21.8a1.49,1.49,0,0,1,1.2-1.2,51.212,51.212,0,0,0,12.2-3.3A1.739,1.739,0,0,1,181.1,188.9Zm-1.7-113,13.8-17.4a1.417,1.417,0,0,1,1.9-.3l10.4,6a1.443,1.443,0,0,1,.6,1.8L198,86.6a65.5,65.5,0,0,1,7.9,7.9l20.7-8.1a1.443,1.443,0,0,1,1.8.6l6,10.4a1.533,1.533,0,0,1-.3,1.9L216.6,113a66.141,66.141,0,0,1,2.9,10.8l22,3.3a1.4,1.4,0,0,1,1.2,1.4v10.3a1.4,1.4,0,0,1-1.2,1.4l-22,3.3a57.4,57.4,0,0,1-2.9,10.8L234,168.1a1.384,1.384,0,0,1,.3,1.9l-6,10.3a1.443,1.443,0,0,1-1.8.6l-20.7-8.1a58.973,58.973,0,0,1-7.9,7.9l8.1,20.7a1.443,1.443,0,0,1-.6,1.8l-10.4,6a1.533,1.533,0,0,1-1.9-.3l-13.8-17.4a66.141,66.141,0,0,1-10.8,2.9l-3.3,21.9a1.4,1.4,0,0,1-1.4,1.2H152a1.4,1.4,0,0,1-1.4-1.2l-3.3-21.9a57.4,57.4,0,0,1-10.8-2.9l-13.8,17.4a1.4,1.4,0,0,1-1.9.3l-10.4-6a1.443,1.443,0,0,1-.6-1.8l8.1-20.7a65.5,65.5,0,0,1-7.9-7.9L89.4,181a1.443,1.443,0,0,1-1.8-.6l-6-10.3a1.533,1.533,0,0,1,.3-1.9l17.4-13.8a66.142,66.142,0,0,1-2.9-10.8l-22-3.3a1.4,1.4,0,0,1-1.2-1.4V128.6a1.4,1.4,0,0,1,1.2-1.4l22-3.3a57.4,57.4,0,0,1,2.9-10.8L82,99.2a1.4,1.4,0,0,1-.3-1.9l6-10.4a1.443,1.443,0,0,1,1.8-.6l20.7,8.1a58.973,58.973,0,0,1,7.9-7.9L109.8,66a1.443,1.443,0,0,1,.6-1.8l10.4-6a1.533,1.533,0,0,1,1.9.3l13.8,17.4A66.142,66.142,0,0,1,147.3,73l3.3-22a1.4,1.4,0,0,1,1.4-1.2h11.9a1.4,1.4,0,0,1,1.4,1.2l3.3,22A66.142,66.142,0,0,1,179.4,75.9Z" fill="#CCFFD7"/>
+                                    </g>
+                                  </g>
+                                </g>
+                                <g id="XMLID_76_">
+                                  <g id="XMLID_77_">
+                                    <g id="XMLID_98_">
+                                      <path id="XMLID_99_" d="M156,225H144a1.4,1.4,0,0,1-1.4-1.2l-3.3-22a57.4,57.4,0,0,1-10.8-2.9l-13.8,17.4a1.508,1.508,0,0,1-1.9.4l-10.3-6a1.443,1.443,0,0,1-.6-1.8l8.1-20.7a65.5,65.5,0,0,1-7.9-7.9l-20.7,8.1a1.443,1.443,0,0,1-1.8-.6l-6-10.3a1.443,1.443,0,0,1,.4-1.9l17.4-13.8A66.142,66.142,0,0,1,88.5,151l-22-3.3a1.4,1.4,0,0,1-1.2-1.4V136a1.4,1.4,0,0,1,1.2-1.4l22-3.3a57.4,57.4,0,0,1,2.9-10.8L74,106.7a1.508,1.508,0,0,1-.4-1.9l6-10.3a1.443,1.443,0,0,1,1.8-.6l20.7,8.1a58.973,58.973,0,0,1,7.9-7.9l-8.1-20.7a1.443,1.443,0,0,1,.6-1.8l10.3-6a1.443,1.443,0,0,1,1.9.4l13.8,17.4a66.142,66.142,0,0,1,10.8-2.9l3.3-22a1.4,1.4,0,0,1,1.4-1.2h12a1.4,1.4,0,0,1,1.4,1.2l3.3,22a57.4,57.4,0,0,1,10.8,2.9L185.3,66a1.508,1.508,0,0,1,1.9-.4l10.3,6a1.443,1.443,0,0,1,.6,1.8L190,94.1a65.5,65.5,0,0,1,7.9,7.9l20.7-8.1a1.443,1.443,0,0,1,1.8.6l6,10.3a1.443,1.443,0,0,1-.4,1.9l-17.4,13.8a66.141,66.141,0,0,1,2.9,10.8l22,3.3a1.4,1.4,0,0,1,1.2,1.4v10.3a1.4,1.4,0,0,1-1.2,1.4l-22,3.3a57.4,57.4,0,0,1-2.9,10.8L226,175.6a1.508,1.508,0,0,1,.4,1.9l-6,10.3a1.443,1.443,0,0,1-1.8.6l-20.7-8.1a65.5,65.5,0,0,1-7.9,7.9l8.1,20.7a1.443,1.443,0,0,1-.6,1.8l-10.3,6a1.443,1.443,0,0,1-1.9-.4L171.5,199a66.141,66.141,0,0,1-10.8,2.9l-3.3,22A1.41,1.41,0,0,1,156,225Zm-10.7-2.9h9.4l3.3-21.8a1.49,1.49,0,0,1,1.2-1.2,51.212,51.212,0,0,0,12.2-3.3,1.731,1.731,0,0,1,1.7.4l13.7,17.2,8.2-4.7-8.1-20.5a1.534,1.534,0,0,1,.4-1.7,68.838,68.838,0,0,0,9-8.9,1.388,1.388,0,0,1,1.7-.4l20.5,8.1,4.7-8.2L206,163.4a1.388,1.388,0,0,1-.4-1.7,62.754,62.754,0,0,0,3.3-12.2,1.49,1.49,0,0,1,1.2-1.2l21.8-3.3v-7.8L210,134a1.49,1.49,0,0,1-1.2-1.2,62.754,62.754,0,0,0-3.3-12.2,1.574,1.574,0,0,1,.5-1.7l17.2-13.7L218.5,97,198,105a1.534,1.534,0,0,1-1.7-.4,63.8,63.8,0,0,0-9-9,1.388,1.388,0,0,1-.4-1.7L195,73.4l-8.2-4.7L173.1,86a1.388,1.388,0,0,1-1.7.4,64.734,64.734,0,0,0-12.2-3.3,1.49,1.49,0,0,1-1.2-1.2l-3.3-21.8h-9.4L142,82a1.49,1.49,0,0,1-1.2,1.2,51.212,51.212,0,0,0-12.2,3.3,1.534,1.534,0,0,1-1.7-.4L113.2,68.9,105,73.6l8.1,20.5a1.534,1.534,0,0,1-.4,1.7,50.566,50.566,0,0,0-8.9,9,1.388,1.388,0,0,1-1.7.4L81.5,97l-4.7,8.2L94,118.9a1.388,1.388,0,0,1,.4,1.7,62.755,62.755,0,0,0-3.3,12.2,1.49,1.49,0,0,1-1.2,1.2l-21.8,3.3v7.8l21.8,3.3a1.49,1.49,0,0,1,1.2,1.2,62.754,62.754,0,0,0,3.3,12.2,1.731,1.731,0,0,1-.4,1.7L76.8,177.2l4.7,8.2,20.5-8.1a1.534,1.534,0,0,1,1.7.4,63.034,63.034,0,0,0,8.9,9,1.388,1.388,0,0,1,.4,1.7l-8.1,20.5,8.2,4.7,13.7-17.2a1.388,1.388,0,0,1,1.7-.4,62.754,62.754,0,0,0,12.2,3.3,1.49,1.49,0,0,1,1.2,1.2Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_94_">
+                                      <path id="XMLID_95_" d="M150,184a42.9,42.9,0,1,1,42.9-42.9A42.87,42.87,0,0,1,150,184Zm0-82.8a40,40,0,1,0,40,40A39.968,39.968,0,0,0,150,101.2Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_90_">
+                                      <path id="XMLID_91_" d="M150,184c-12.7,0-22.6-18.8-22.6-42.9,0-24,9.9-42.9,22.6-42.9s22.7,18.8,22.7,42.9S162.7,184,150,184Zm0-82.8c-10.9,0-19.7,17.9-19.7,40,0,22,8.9,40,19.7,40,10.7,0,19.8-18.3,19.8-40C169.7,119.5,160.7,101.2,150,101.2Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_88_">
+                                      <path id="XMLID_68_" d="M191.4,142.6H108.6a1.5,1.5,0,1,1,0-3h82.8a1.473,1.473,0,0,1,1.5,1.5A1.538,1.538,0,0,1,191.4,142.6Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_86_">
+                                      <path id="XMLID_67_" d="M150,184a1.473,1.473,0,0,1-1.5-1.5V99.7a1.5,1.5,0,0,1,3,0v82.8A1.536,1.536,0,0,1,150,184Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_84_">
+                                      <path id="XMLID_66_" d="M150.1,124a106.532,106.532,0,0,1-34.1-5.7,1.423,1.423,0,0,1,.9-2.7,101.477,101.477,0,0,0,66.2,0,1.423,1.423,0,0,1,.9,2.7A104.891,104.891,0,0,1,150.1,124Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_82_">
+                                      <path id="XMLID_65_" d="M116.4,166a1.5,1.5,0,0,1-1.4-1,1.378,1.378,0,0,1,.9-1.8,104.252,104.252,0,0,1,68,0,1.423,1.423,0,0,1-.9,2.7,101.478,101.478,0,0,0-66.2,0C116.7,166,116.6,166,116.4,166Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_80_">
+                                      <path id="XMLID_62_" d="M230.3,225H69.7a1.5,1.5,0,0,1,0-3H230.4a1.473,1.473,0,0,1,1.5,1.5A1.624,1.624,0,0,1,230.3,225Z" fill="#34D559"/>
+                                    </g>
+                                    <g id="XMLID_78_">
+                                      <path id="XMLID_1_" d="M210.2,233.8H89.8a1.473,1.473,0,0,1-1.5-1.5,1.417,1.417,0,0,1,1.5-1.5H210.3a1.473,1.473,0,0,1,1.5,1.5A1.558,1.558,0,0,1,210.2,233.8Z" fill="#34D559"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </svg>
+                            
+                        </div>
+                      </div>
+                      <div class="service-title">
+                        <h3 data-anim="totop" data-anim-delay="0.2" data-anim-link="service_automation">automation</h3>
+                      </div>
+                      <div class="service-text">
+                          <p data-anim="totop" data-anim-delay="0.4" data-anim-link="service_automation">
+                            Lately being a trend, I deal with automation as well, especially chatbots. They're great way to interact with customers any time, and can be utilized for many purposes such as sales, generating leads, increasing brand loyalty, even a simple delivery bot. I do it with popular platforms such as Facebook Messenger and WhatsApp (<span class="helptext"><span class="tooltip">Currently available to medium-large businesses, with a special request to WhatsApp.</span>currently limited</span>).                         </p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <p class="bottomtext"><strong>Service is not listed? </strong>if it's digital and web-related, <a class="tocontact">Ask me</a> if I can do it.</p>
+        </div>
+
+     </section>
+          
+          <section id="work" class="section bl-viewport-height" style="">
+            
+            <div class="sidetext">
+              <p key="3">WHAT I HAVE DONE</p>
+            </div>
+            <div class="bg-text noanim">
+              <p class="smaller">WORK</p>
+            </div>
+            <div class="container ">
+              <h2 class="title" data-anim="block">MY <span>WORK</span></h2>
+              <div class="showcase columns is-multiline is-8">
+                <div class="column is-full">
+                  <div class="project">
+                    <div class="project-image">
+                      <embed id="p1img" src="img/svg/laptopmockup.svg" height="300px" />
+                    </div>
+                    <div class="project-info">
+                      <h3>Project One</h3>
+                      <div class="side">
+                        <p>Web & Mobile Design</p>
+                      </div>
+                      
+                      <p class="project-info-p">Sorry :( nothing to show yet</p>
+                    </div>
+                    <div class="project-link">
+                      <i class="fas fa-arrow-right fa-lg"></i>
+                      <p>View Work</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-half">
+                  <div class="project small bgcolor-5 mine">
+                    <div class="project-image">
+                      <embed id="p2img" src="img/onlyphone.png" height="300px" />
+                    </div>
+                    <div class="project-info">
+                      <h3>This Website</h3>
+                      <div class="side">
+                        <p>Web & Mobile Design</p>
+                      </div>
+                      
+                      <p class="project-info-p">I take great pride in my website, which represents who I am and my abilities.</p>
+                    </div>
+                    <div class="project-link">
+                      <i class="fas fa-arrow-right fa-lg"></i>
+                      <p>View Work</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-half">
+                  <div class="project contact small bgcolor-2 tocontact">
+                      <p>Let's work on something together.</p>
+                      <div class="project-link">
+                        <i class="fas fa-arrow-right fa-lg"></i>
+                        
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </section>
+          
+          <section id="footer" class="section">
+            <div class="sidetext">
+              <p key="4">WHERE WE START</p>
+            </div>
+            <div class="container">
+              <div class="columns">
+                <div class="column is-half footer-text">
+                    <h2 data-anim="slideup">Say Hi!</h2>
+                    <p data-anim="fade" data-anim-delay="0.4">I'm fascinated to hear about you and your next project.
+                          Feel free to contact me using the contact form, or any other way you'd like.
+                    </p>
+                </div>
+                <div class="column is-half footer-form">
+                  <div class="form-container">
+                      <form>
+                          <div class="columns">
+                            <div class="column is-half">
+                              <label data-anim="slideup" data-anim-delay="0.4" data-anim-dur="1">Your name</label>
+                              <input class="active" type="text" name="name" />
+                            </div>
+                            <div class="column is-half">
+                              <label data-anim="slideup" data-anim-delay="0.8" data-anim-dur="1">Your email/phone</label>
+                              <input type="text" name="email"/>
+                            </div>
+                          </div>
+                          <div class="columns">
+                            <div class="column">
+                              <label data-anim="slideup" data-anim-delay="1.2" data-anim-dur="1">Message</label>
+                              <textarea name="text"></textarea>
+                            </div>
+                            
+                          </div>
+                          <div class="social-mobile is-hidden-desktop">
+                              <a href="https://www.facebook.com/benjaminbenlevi"><i class="fab fa-facebook-f fa-lg"></i></a>
+                              <a href="https://www.instagram.com/ben_levi.1/"><i class="fab fa-instagram fa-lg"></i></a>
+                              <a href="https://www.linkedin.com/in/ben-levi-3158a0185/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                          </div>
+                          <div class="sendbtn pointer">SEND</div>
+                      </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="footer-info">
+                <div class="columns">
+                    <div class="column">
+                      <h3>SERVICES <i class="fas fa-angle-down is-hidden-desktop"></i></h3> 
+                      <div class="column-info" dheight="140px">
+                          <ul>
+                              <li>Fullstack Web Development</li>
+                              <li>Web Design</li>
+                              <li>Website Redesign</li>
+                              <li>WordPress</li>
+                              <li>UI/UX Design</li>
+                              <li>Content Management Sys.</li>
+                            </ul>
+                            <ul>
+                                <li>Responsive Design</li>
+                                <li>E-Commerce</li>
+                                <li>Graphic Design</li>
+                                <li>App Design</li>
+                                <li>Automation</li>
+                                <li>Website Management</li>
+                            </ul>
+                      </div>
+                    </div>
+                    <div class="column is-hidden-touch">
+                      <h3>SOCIAL CONNECTIONS <i class="fas fa-angle-down is-hidden-desktop"></i></h3>
+                      <div class="column-info" dheight="80px">
+                       <ul>
+                          <li><a href="https://www.facebook.com/benjaminbenlevi">Facebook</a></li>
+                          <li><a href="https://www.instagram.com/ben_levi.1">Instagram</a></li>
+                          <li><a href="https://www.linkedin.com/in/ben-levi-3158a0185/">LinkedIn</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <h3>CONTACT INFO <i class="fas fa-angle-down is-hidden-desktop"></i></h3>
+                      <div class="column-info" dheight="90px">
+                        <p>Ben Levi - Web Designer & Developer</p>
+                        <ul>
+                          <li><a href="tel:+972546327994">+972(0)54 - 632 - 7994</a></li>
+                          <li><a href="mailto:hello@benlevi.me">hello@benlevi.me</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottombar">
+              <div class="contain">
+                  <span>Made with </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -256 1850 1850">
+                    <g transform="matrix(1,0,0,-1,37.966102,1343.4237)">
+                        <path fill="red" color="red" d="m 896,-128 q -26,0 -44,18 L 228,492 q -10,8 -27.5,26 Q 183,536 145,583.5 107,631 77,681 47,731 23.5,802 0,873 0,940 q 0,220 127,344 127,124 351,124 62,0 126.5,-21.5 64.5,-21.5 120,-58 55.5,-36.5 95.5,-68.5 40,-32 76,-68 36,36 76,68 40,32 95.5,68.5 55.5,36.5 120,58 64.5,21.5 126.5,21.5 224,0 351,-124 127,-124 127,-344 0,-221 -229,-450 L 940,-110 q -18,-18 -44,-18"></path>
+                    </g>
+                    </svg>
+                  <span>by me.</span>
+              </div>
+              </div>
+          </section>
+
+            
+            <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>      
+            
+            <script type="text/javascript" src="js/jquery.paroller.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+            <!----script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script-->
+            <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
+            <script src="unminified.js"></script>
+            <!----script>
+$("*[data-anim*=fade], *[data-anim=totop]").each(function(){$(this).css("opacity","0")});var mycolors=["rgba(72, 255, 196, 1)","rgba(85, 139, 255, 1)","rgba(255, 231, 76, 1)","rgba(166, 130, 255, 1)","rgba(12, 10, 62, 1)"];let current_color="rgba(72, 255, 196, 1)";var matchbganim=[],fadeelements=[];let loaded=!1,sections_visited=[],uri=window.location.href;function homeAnims(){loaded=!0,TweenMax.staggerFrom("#codebars rect",.2,{attr:{width:0},ease:Linear.easeNone,onStart:()=>{}},.3),$(".codebars").css("opacity","0.17")}1==uri.indexOf(":8080")&&(uri=!0),$(".project-info h3").each(function(){$(this).attr("data-anim","slideup")});let vh=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${vh}px`),$(document).ready(function(){let dashloader=$(".logo-loader rect");if($(dashloader).css("-webkit-animation","none"),$(dashloader).css("-moz-animation","none"),$(dashloader).css("-ms-animation","none"),$(dashloader).css("animation","none"),TweenMax.to(".logo-loader rect",1,{strokeDashoffset:0,onComplete:function(){TweenMax.to("#loader",1.2,{width:0,ease:Power4.easeOut,onComplete:homeAnims});var pos_top="57px",pos_left="85px";minDevice("md")&&(pos_top="76px",pos_left="110px"),TweenMax.to("#loader-logo",2,{delay:.2,top:pos_top,left:pos_left,ease:Power3.easeOut,onStart:function(){TweenMax.to(".logo-loader",1,{width:"140px"})},onComplete:function(){TweenMax.to(".topbar .logo",.1,{opacity:1}),TweenMax.to(".logo-loader",.1,{opacity:0,delay:.06})}})}}),TweenMax.from(".homebgtext",2.2,{transform:"translateY(160%) translateX(-20%) rotate(-70deg)",opacity:0,ease:Power3.easeOut,delay:.7,onComplete:function(){$(".homebgtext").css("animation","homebg 120s linear infinite")}}),1!=uri){let rightclicked=!1;$("body").contextmenu(function(){0==rightclicked&&(gtag("event","rightclick",{event_category:"engagement"}),rightclicked=!0)})}isDevice("xs")&&$(".about_modal-avatar").prependTo($(".about_modal .columns")),$("#service_develop .rect_bar").each(function(){let h=$(this).attr("height"),y=$(this).attr("y"),tl=new TimelineMax({repeat:-1,repeatDelay:1,delay:2*Math.random()}),pixel_change=h*Math.random(),y_change=+y+ +pixel_change;tl.to($(this),1.3,{attr:{height:h-pixel_change,y:y_change}}).to($(this),1.3,{attr:{height:h,y:y},delay:Math.random()})}),$("#service_maintenance .rect_bar").each(function(){let w=$(this).attr("width"),tl=new TimelineMax({repeat:-1,repeatDelay:1,delay:2*Math.random()}),pixel_change=w*Math.random();tl.to($(this),1.3,{attr:{width:w-pixel_change}}).to($(this),1.3,{attr:{width:w}})}),$(".project.mine").click(function(){TweenMax.to(window,1,{scrollTo:"#home-wrapper"})});let toggler=0,aboutmodal={elm:$(".sidestripe .aboutme"),active:!1,getProperWidth:(vw=!1)=>isDevice("xs")?1==vw?jQuery(window).width()-4:"100vw":1==vw?"646px":"650px",toggle:()=>{let del=.7,stripe=minDevice("sm")?$(".animated_stripe"):$(".sidestripe"),stripe_width=minDevice("sm")?0:"4px";if(0==aboutmodal.active){let tl;$("body").addClass("noscroll").bind("touchmove",function(e){e.preventDefault()}),(new TimelineMax).set(stripe,{css:{zIndex:9}}).set(".sidebutton",{css:{zIndex:10}}).to(stripe,.9,{width:aboutmodal.getProperWidth(),ease:Power3.easeOut}).to(".about_modal",.8,{width:aboutmodal.getProperWidth(!0),ease:Power3.easeOut,delay:.3},0),setTimeout(()=>{aboutmodal.active=!0,$(".about_modal_stripe").addClass("active"),$(".about_modal *[data-anim]").each(function(){startAnimating(this)})},700)}else{let tl_rev;$("body").removeClass("noscroll").unbind("touchmove"),TweenMax.staggerTo(".about_modal *[data-anim]",1,{opacity:0}),new TimelineMax({delay:.3}).to(".about_modal",.8,{width:0,ease:Power3.easeInOut}).to(stripe,.9,{width:stripe_width,ease:Power3.easeOut,delay:.4},0),setTimeout(()=>{aboutmodal.active=!1,$(".about_modal_stripe").removeClass("active")},1e3)}}};if($(".sidebutton, .tocontact").click(function(){TweenMax.to(window,1,{scrollTo:"#footer"})}),$(".btn.more").click(function(){aboutmodal.toggle()}),$(".close_modal, .sidestripe, section, .sidebutton").click(function(){1==aboutmodal.active&&aboutmodal.toggle()}),isDevice("xs")||isDevice("sm")){let onexit=!1;$(".about_modal").click(function(){1==aboutmodal.active&&0==onexit&&(aboutmodal.toggle(),onexit=!0,setTimeout(()=>{onexit=!1},1e3))})}var footercolor="#3E3750";isDevice("xs")||$(".bg-text:not(.noanim) p").paroller({factor:.3,type:"foreground",direction:"vertical",transition:"transform 0.4s ease"}),$(".btn").each(function(){var btnanim=new TimelineMax({paused:!0}),arrow=$(this).find("i");btnanim.to(arrow,.1,{transform:"translateX(20px)",opacity:0,ease:Power0.easeNone}).to($(this).find(".circle"),.2,{width:"100%",ease:Power1.ease}).set(arrow,{transform:"translateX(-200px)"}).to($(this).find("span"),.1,{marginLeft:"20px"}).to(arrow,.1,{opacity:1,transform:"translateX(-180px)"}),$(this).hover(function(){btnanim.restart()},function(){btnanim.reverse()})});var controller=new ScrollMagic.Controller;if(new ScrollMagic.Scene({triggerElement:"#footer"}).on("enter",footerenter).on("leave",footerleave).triggerHook(.3).addTo(controller),!isDevice("xs")){var matchid=0;$(".matchbgcolor").each(function(){var $elm=this,pos,triggerpos=$($elm).offset().top/$(window).height();$($elm).hasClass("logo")&&(triggerpos=.1),matchbganim[matchid]=new ScrollMagic.Scene({triggerElement:"#about",triggerHook:triggerpos}).on("leave",function(){matchBgColor($elm,"white")}).on("enter",function(){matchBgColor($elm,"black")}).addTo(controller),matchid++}),new ScrollMagic.Scene({triggerElement:".home-wrapper",triggerHook:0}).on("enter",function(){shortenLogo()}).on("leave",function(){widenLogo()}).offset(20).addTo(controller)}var index=0,$sidetexts=[],lastsection="home";$(".section").each(function(){var $elm=this,$sidetext=$($elm).find(".sidetext p");$sidetexts[parseInt($sidetext.attr("key"))]=$sidetext,console.log(parseInt($sidetext.attr("key"))+" "+$sidetext.html());var sectionname=$(this).attr("id"),scene=new ScrollMagic.Scene({triggerElement:$elm,triggerHook:.6}).on("enter",function(event){var smod="REVERSE"==event.scrollDirection?-1:1;switch(1==smod&&-1==sections_visited.indexOf(sectionname)&&startAnims($elm),sectionname){case"about":TweenMax.to("#about .bg-text",.6,{opacity:1});break;case"work":TweenMax.to("#work .bg-text",.6,{opacity:1});break;case"footer":TweenMax.to("#work .bg-text",.6,{opacity:0})}index++,sections_visited.push(sectionname),lastsection=sectionname,sidetextShow($sidetext,smod,index-1),1!=index&&sidetextHide($sidetexts[index-1],smod,index-1)}).on("leave",function(event){switch(sectionname){case"footer":TweenMax.to("#work .bg-text",.6,{opacity:1});break;case"work":TweenMax.to("#work .bg-text",.6,{opacity:0})}var smod=-1;sidetextShow($sidetexts[index-1],-1,index-2),sidetextHide($sidetext,-1,index),index--}).addTo(controller)});var $cursor=$("#cursor");if($("body").on("mousemove",function(e){isDevice("xs")||TweenMax.to($cursor,.2,{left:e.clientX-10,top:e.clientY-10})}),$("#work .project").hover(function(){TweenMax.to($(this).find(".project-link .fas"),.3,{rotation:-20,delay:.1})},function(){TweenMax.to($(this).find(".project-link .fas"),.3,{rotation:0,delay:.1})}),$("a, .pointer,#work .project, .sidebutton").on("mouseenter",function(){TweenMax.to("#cursor",.2,{transform:"scale(2.5)",opacity:.5})}).on("mouseleave",function(){TweenMax.to("#cursor",.2,{transform:"scale(1)",opacity:1})}),$(".sendbtn").on("click",function(e){$(this).html("Sending.."),$.post("post.php",$("form").serialize(),function(result){$(".sendbtn").html(result).addClass("hover"),gtag("event","form_sent",{event_category:"engagement",event_label:"NAME: "+$("form *[name=name]").val()+" EMAIL: "+$("form *[name=email]").val()+" TEXT: "+$("form textarea").val()})})}),isDevice("xs")||isDevice("sm")){let infos=[];$(".footer-info h3").click(function(){-1==infos.indexOf(this)?(TweenMax.to($(this).find("i"),.5,{rotation:180}),TweenMax.to($(this).next(),.6,{height:$(this).next().attr("dheight")}),infos.push(this)):(TweenMax.to($(this).find("i"),.5,{rotation:0}),TweenMax.to($(this).next(),.6,{height:0}),infos.splice(infos.indexOf(this),1))})}});let logo={elm:$(".sidebar .logo"),rect:$(".sidebar .logo").find("rect"),text:[],state:{wide:!0,white:!0}};$(logo.elm.find("text")).each(function(){logo.text[$(this).attr("num")]=this});for(var tween_logo=new TimelineMax({paused:!0}),i=6;i>0;i--)tween_logo.to(logo.text[i],.07,{opacity:0});function shortenLogo(){logo.state.wide=!1,tween_logo.restart()}function widenLogo(){logo.state.wide=!0,tween_logo.reverse()}function matchBgColor(elm,col){TweenMax.to(elm,.4,{color:col,onComplete:()=>{$(elm).parent(".topmenu")&&("white"==col?$(elm).removeClass("black"):$(elm).addClass("black"))}}),$(elm).hasClass("logo")&&recolorLogo(col,.5)}function startAnims(parent){0!=loaded||"home-wrapper"!=$(parent).attr("id")?"home-wrapper"==$(parent).attr("id")&&$(parent).find("*[data-anim]").each(function(){startAnimating(this)}):setTimeout(startAnims,100,parent)}function startAnimating(elm){let del=null==$(elm).attr("data-anim-delay")?0:$(elm).attr("data-anim-delay"),dur=null==$(elm).attr("data-anim-dur")?1:$(elm).attr("data-anim-dur"),dataanim;switch($(elm).attr("data-anim")){case"fade":TweenMax.to(elm,dur,{opacity:1,delay:del});break;case"block":let obj=anim_block.find(x=>$(elm).is(x.elm));setTimeout(obj.start,1e3*del);break;case"slideup":TweenMax.to($(elm).find(".anim-slideup-div"),dur,{height:0,ease:Power2.easeOut,delay:del});break;case"totop":null==$(elm).attr("data-anim-dur")&&(dur=.7),TweenMax.from(elm,dur,{y:"100px",ease:Power1.easeOut,delay:del}),TweenMax.to(elm,dur,{opacity:1,delay:del});break;default:console.log("oops!")}}tween_logo.to(logo.text[7],.5,{x:"38px",delay:.2},0),tween_logo.to(logo.rect,.33,{attr:{width:"44"},ease:Power1.ease,onStart:()=>console.log("start")});var animcontrol=new ScrollMagic.Controller;$("*[data-anim]:not([data-anim-link]").each(function(){let element=this,visited=!1;if(!($(this).parents(".home-wrapper").length||$(this).parents("#footer").length||$(this).parents(".about_modal").length))var scene=new ScrollMagic.Scene({triggerHook:.9,triggerElement:this}).on("enter",function(){if(0==visited){if(startAnimating($(element)),null!=$(element).attr("id")){var id=$(element).attr("id");$("*[data-anim-link="+id+"]").length&&$("*[data-anim-link="+id+"]").each(function(){startAnimating(this)})}visited=!0}}).addTo(animcontrol)}),$("*[data-anim=slideup]").each(function(){$(this).html("<div class='anim-slideup-text'>"+$(this).html()+"</div>"),$(this).prepend("<div class='anim-slideup-div'></div>"),$(this).css("height",$(this).find(".anim-slideup-text").height()),$(this).find(".anim-slideup-div").css("height",$(this).find(".anim-slideup-text").height())});let anim_block=[];function AnimBlock(elm){this.elm=elm,this.textcolor=$(elm).css("color"),this.block={elm:$(this.elm).find(".anim-block-div"),color:()=>{let colorattr=$(elm).attr("data-anim-color");return jQuery.isNumeric(colorattr)?mycolors[colorattr-1]:colorattr}},this.spancolor=$(elm).find("span").css("color"),this.start=fcomplete=>{$(this.block.elm).css("background-color",this.block.color()),$(this.elm).css("color","rgba(1,1,1,0)").css("opacity","1"),null!=this.spancolor&&$(this.elm).find("span").css("color","rgba(1,1,1,0)");let wid=$(this.elm).width()+3,tlanim;(new TimelineMax).to(this.block.elm,.5,{width:"100%",ease:Power2.easeInOut,onComplete:()=>{$(this.elm).css("color",this.textcolor),null!=this.spancolor&&$(this.elm).find("span").css("color",this.spancolor)}}).to(this.block.elm,.4,{transform:`translateX(${wid}px)`,ease:Power2.easeInOut,onComplete:fcomplete}).to(this.block.elm,.1,{opacity:"0"})}}$("*[data-anim=block]").each(function(){$(this).append("<div class='anim-block-div'></div>");let block=new AnimBlock($(this));anim_block.push(block)});var tweens=new TimelineMax({paused:!0});function footerenter(){recolorLogo("white",.3);for(var i=0;i<matchbganim.length;i++)matchbganim[i].trigger("leave");tweens.play(),$("#footer").find("*[data-anim]").each(function(){setTimeout(()=>{startAnimating(this)},250)})}function footerleave(){recolorLogo("black",.3);for(var i=0;i<matchbganim.length;i++)matchbganim[i].trigger("enter");$(".sidebutton").css("display","block"),tweens.reverse()}function recolorLogo(clr="black",anim=.2,del=0,overridemobile=!1){isDevice("xs")&&1!=overridemobile||(logo.state.white="black"!=clr,TweenMax.to(".logo text",anim,{css:{fill:clr},delay:del}),TweenMax.to(".logo rect",anim,{css:{stroke:clr},delay:del}))}function getDevice(num=!1){var width=document.body.clientWidth,tablet=768,desktop=960,widescreen=1152,fullhd=1344,dev="xs";return width>=1344?dev="xl":width>=1152?dev="lg":width>=960?dev="md":width>=768&&(dev="sm"),dev}function isDevice(dev){return getDevice()==dev}function minDevice(dev){var width=document.body.clientWidth,tablet=768,desktop=960,widescreen=1152,fullhd=1344;switch(dev){case"sm":if(width>=768)return!0;break;case"md":if(width>=960)return!0;break;case"lg":if(width>=1152)return!0;break;case"xl":if(width>=1344)return!0;break;default:return!1}return!1}function sidetextShow($elm,dir,index){current_color=mycolors[index],TweenMax.to(".sidestripe,.matchsidecolor",.65,{backgroundColor:mycolors[index]}),TweenMax.set($($elm),{clearProps:"y, opacity"}),TweenMax.from($($elm),1,{opacity:1,ease:Power2.easeOut,y:dir*($(window).height()/2),onStart:function(){$($elm).addClass("active")}})}function sidetextHide($elm,dir,index){TweenMax.to($($elm),1,{opacity:0,y:dir*-$(window).height()/2-80,onComplete:function(){$($elm).removeClass("active"),TweenMax.set($($elm),{clearProps:"y, opacity"})}})}tweens.to("body",.4,{backgroundColor:"#231B37"},0).to(".sidebar>.topbar",.4,{backgroundImage:"linear-gradient(to top, rgba(255,0,0,0) 0%, rgba(62,55,80,0) 40%)"},0).to(".sidebar>.bottombar",.4,{backgroundImage:"linear-gradient(to bottom, rgba(255,0,0,0) 0%, rgba(62,55,80,0) 40%)"},0).to(".sidebar a, .sidetext p",.4,{color:"white"},0).to(".sidebutton",.25,{opacity:"0",onComplete:()=>{$(".sidebutton").css("display","none")}},0).to("#footer textarea,input,.sendbtn",.3,{opacity:"1"},0);           </script>
+            -->
+            
+          </body>
+          
+          </html>

@@ -1,0 +1,523 @@
+@charset "utf-8";
+/*! bulma.io v0.7.4 | MIT License | github.com/jgthms/bulma */
+$tablet: 767px;
+$color-1: rgba(85, 139, 255, 1);
+$color-2: #48ffc4; // 48ffc4 rgba(255, 51, 31, 1)
+$color-3: rgba(255, 231, 76, 1);
+$color-4: rgba(166, 130, 255, 1);
+$color-5: rgba(12, 10, 62, 1);
+$mycolors:  rgba(85, 139, 255, 1),
+#48ffc4,
+rgba(255, 231, 76, 1),
+rgba(166, 130, 255, 1),
+rgba(12, 10, 62, 1);
+// 1. Your custom variables and variable overwrites.
+@font-face {
+    font-family: 'Stolzl';
+    src: url("../src/Stolzl Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Stolzl Book';
+    src: url("../src/Stolzl Book.otf") format("opentype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Stolzl Medium';
+    src: url("../src/Stolzl Medium.otf") format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url("../src/BrandonGrotesque-Black.otf") format("opentype");
+}
+@mixin font-stolzl-light() { font-family: "Stolzl Book", "Arial", sans-serif;}
+@mixin font-stolzl() { font-family: "Stolzl", "Arial", sans-serif;}
+@mixin font-brandon() { font-family: "Brandon", "Poppins", sans-serif;}
+
+@import "../bulma/sass/utilities/_all";
+@import "../bulma/sass/base/_all";
+@import "../bulma/sass/elements/_all";
+@import "../bulma/sass/components/_all";
+@import "../bulma/sass/grid/_all";
+@import "../bulma/sass/layout/_all";
+@mixin breakpoint($class) {
+    @if $class == xs {
+      @media (max-width: $tablet) { @content; }
+    }
+   
+    @else if $class == sm {
+      @media (min-width: $tablet+1) { @content; }
+    }
+   
+    @else if $class == md {
+      @media (min-width: $desktop) { @content; }
+    }
+   
+    @else if $class == lg {
+      @media (min-width: $widescreen) { @content; }
+    }
+    @else if $class == xl {
+        @media (min-width: $fullhd) { @content; }
+      }
+   
+    @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg,xl";
+    }
+  }
+body {
+    position: relative;
+}
+a {
+        cursor: url('../img/cursor.png'), default;
+}
+
+::selection {
+    background: nth($mycolors, 2); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: nth($mycolors, 2); /* Gecko Browsers */
+  }
+.cursor {
+    width: 24px; 
+    height: 24px; 
+    border: 1px solid gray;
+    position: absolute;
+    border-radius: 50px;
+    z-index: 999;
+    &.hover {
+
+    }
+}
+.bl-absolute {
+    position: absolute;
+}
+.bl-viewport-height {
+    height: 100vh;
+}
+.logo {
+  //  -webkit-transition: all 0.3s; 
+    transition: all  2s;
+    font-size: 25px; 
+    font-weight: bold; 
+    color: black; 
+    border: 4px solid black; 
+    padding-left: 5px; 
+    padding-right: 5px;
+    position: absolute;
+}
+.navigation {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0 !important;
+    @include tablet {
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 0px;
+    }
+    .svgbtn {
+        width: 160px;
+    }
+
+    .links {
+        .level-item {
+            .navbox {
+                background-color: $color-1;
+                position: absolute;
+                width: 130px;
+                height: 70px;
+                @include breakpoint(sm) {
+                    width: 130px;
+                   height: 115px;
+                }
+                &:not(.active) {
+                    top: -67px;
+                    @include breakpoint(sm) {
+                        top: -112px;
+                    }
+                }
+                cursor: url('../img/cursor.png'), default;
+               
+            }
+           width: 130px;
+           height: 70px;
+           @include breakpoint(sm) {
+            width: 130px;
+           height: 115px;
+        }
+           margin-right: 0 !important;
+           a {
+               @include font-brandon();
+               font-size: 14px;
+               color: black;
+               position: absolute;
+               top:45px;
+               @include breakpoint(sm) {
+                top: 85px;
+            }
+              
+              // mix-blend-mode: difference;
+               //test
+           }
+        }
+    }
+}
+
+.bg-shapes {
+    background-image: url(../img/svg/shapes-bg.svg);
+    background-size: 100% auto;
+    background-position: top;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+}
+.bgshapes {
+    * {
+        position: absolute;
+
+    }
+    #shape1 {
+        z-index: 1;
+        width: 1000px;
+        height: 1000px;
+        border-radius: 0999px;
+        left: -400px;
+        top: -500px;
+        background-color:$color-1;// #59FFE7;
+        box-shadow: 0px 0px 32px 0px rgba(212,212,212,0.3);
+        
+    }
+    #shape2 {
+        z-index: 0;
+        width: 4000px;
+        height: 4000px;
+        border-radius: 9999999px;
+        top: 400px;
+        left: -1300px;
+        background-color: white;
+        box-shadow: 0px 0px 32px 0px rgba(212,212,212,0.3);
+    }
+    #shape3 {
+        z-index: 0;
+        width: 500px;
+        height: 500px;
+        border-radius: 0999px;
+        right: -250px;
+        top: -300px;
+        background-color:$color-2;// #736EFF;
+        box-shadow: 0px 0px 32px 0px rgba(212,212,212,0.3);
+    }
+
+}
+.sidestripe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background-color: $color-1;
+    z-index: 4;
+
+}
+@for $i from 1 through 5 {
+    .bgcolor-#{$i} {
+        background-color: nth($mycolors, $i);
+    }
+}
+.sidebar {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    @include breakpoint(sm) {
+        width: 120px;
+        position: fixed;
+    }
+    
+    z-index: 3;
+    .topbar {
+        .logo {
+            margin-left: 30px;
+            @include breakpoint(sm) {
+                margin-left: 40px;
+            }
+        }
+        padding-top: 30px;
+        @include breakpoint(sm) {
+            padding-top: 45px;
+        }
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 155px;
+        
+     //   background-image: linear-gradient(to top, rgba(255,0,0,0) 0%, rgba(255,255,255,1) 40%);
+    }
+    .bottombar {
+        @include breakpoint(xs) {
+            display: none;
+        }
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 120px;
+        height: 200px;
+    //    background-image: linear-gradient(to bottom, rgba(255,0,0,0) 0%, rgba(255,255,255,1) 35%);
+        .contain {
+            margin-left: 50px;
+            margin-top: 76px;
+            a {
+                display: block;
+                color: black;
+                font-size: 14px;
+                &:last-child {
+                    margin-top: 30px;
+                }
+            }
+        }
+
+    }
+}
+.sidetext {
+    @include breakpoint(xs) {
+        display: none;
+    }
+
+    p {
+     //   opacity: 0;
+        font-size: 11px;
+        font-weight: bold;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);
+       // margin-left: 49px;
+        color: black;
+            position: fixed;
+        z-index: 4;
+            visibility: hidden;
+            left: 49px;
+            top: 50%;
+            transform: translateY(-50%) rotate(180deg);
+        &.active {
+            visibility: visible;
+        }
+    }
+}
+section {
+    position: relative;
+    .container {
+        padding-left: 49px;
+        padding-right: 49px;
+    }
+}
+
+#home {
+    h1 {
+        @include font-brandon();
+        font-size: 6rem;
+    }
+    p {
+        @include font-stolzl-light();
+    }
+    
+}
+#about {
+    .info {
+        padding: 20px 40px 20px 40px;
+        h2 {
+            @include font-brandon();
+            font-size: 3.2rem;
+            color: black;
+        }
+        p {
+            @include font-stolzl-light();
+            margin-top: 35px;
+         //   width: 70%;
+            color: #191919;
+            font-size: 1em;
+            line-height: 1.65em;
+            font-weight: 400;
+            letter-spacing: .02em;
+            a {
+                color: black;
+                border-bottom: 1px solid black;
+             //   padding-bottom: 1px;
+              //  @include font-stolzl();
+            }
+        }
+    }
+    .image {
+        overflow: hidden;
+        position: absolute;
+        @include breakpoint(sm) {
+            transform: translateX(700px);
+        }
+        
+        opacity: 0;
+        width: 35vw;
+        max-height: 90vh;
+        max-width: 500px;
+        border: 8px solid $color-2;
+        // 48ffc4
+      //  cursor: none;
+        img {
+            height: auto;
+            max-width: 35vw;
+            &.dotted {
+                position: absolute;
+                top: 0;
+                opacity: 1;
+            }
+            &.real {
+                opacity: 0;
+            }
+        }
+       
+    }
+    .about-box {
+        @include mobile {
+            width: 90%;
+        }
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.bg-text {
+    position: absolute;
+    &.noanim {
+        position: fixed;
+    //   display: none;
+        opacity: 0;
+    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //width: 100%;
+    z-index: -1;
+    p {
+        @include font-stolzl-light();
+        opacity: 0.05;
+        font-size: 120px;
+        @include tablet {
+            font-size: 300px;
+        }
+        @include widescreen {
+            font-size: 480px;
+        }
+        text-align: center;
+    }
+}
+
+#work {
+    .showcase {
+        .project {
+           // height: 67vh;
+            width: 60vw;
+            border: 1px solid black;
+            position: relative;
+            .project-num {
+                position: absolute;
+            }
+            .project-image {
+                img {
+                    object-fit:cover;
+                    height: 65vh;
+                }
+            }
+            .project-info {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 20vw;
+                height: 200px;
+                border: 2px solid blue;
+            }
+        }
+    }
+   /* .showcase {
+        position: relative;
+        width: 100%;
+        .infobox {
+            position: absolute;
+            height: 270px;
+            width: 270px;
+            z-index: 2;
+            top: 270px;
+            left: 120px;
+            .outline {
+                position: absolute;
+                border: 2px solid black;
+                width: 270px;
+                height: 270px;
+                top: -5px;
+                left: -5px;
+                z-index: 1;
+            }
+            .info {
+                background-color: lightpink;
+                position: absolute;
+                height: 270px;
+                width: 270px;
+                z-index: 0;
+                padding: 20px;
+                h3 {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                p:not(.subtext) {
+                    text-align: center;
+                    margin-top: 10px;
+                }
+            }
+
+        }
+        .image {
+            position: absolute;
+            width: calc(83.3333333% - 40px);
+            right: 0;
+            background-image: url("../img/project1.png");
+            background-color: #cccccc;
+            height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }*/
+}
+
+#footer {
+    color: white;
+    .content {
+        margin-top: 200px;
+        text-align: center;
+        h1 {
+            color: white;
+            font-size: 4rem;
+            @include font-brandon();
+        }
+        p {
+            @include font-stolzl-light();
+        }
+        .sociallist {
+            a {
+                color: white;
+                display: inline-block;
+                border: 1px solid white;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                line-height: 38px;
+                &:not(:last-child) {
+                  margin-right: 23px;
+                }
+            }
+        }
+    }
+}
