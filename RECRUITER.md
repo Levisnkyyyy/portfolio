@@ -10,7 +10,7 @@ I had a few "ups and downs", and I didn't take myself in hands until a few month
 I started with Pawn Scripting (which is the scripting language for making GTA San Andreas multiplayer servers). It's pertty close to C. 
 I assume this was around the age of 14-15. I was a big fan of the game, particularly the multiplayer, I had run a few servers.
 
-Next up would be Web. I can't remember how and when, but I just started learning from w3schools, which gave me great basis knowledge of other languages such as HTML, CSS and PHP.
+Next up would be Web. I can't remember how and when, but I just started learning from w3schools, which gave me great basis knowledge of other languages such as HTML, CSS, PHP and SQL.
 During this time, I experimented a lot on my own, I really loved it as a child (didn't even think about a job in this field later on, just enjoyed it)
 I made a few websites using pure HTML, CSS and PHP, unfortunately I don't have any record of them, and if I had, I doubt that I would have shown it you, since they're very beginner-like.
 At a certain point I started learning jQuery (not knowing JavaScript), again from w3scools. JavaScript I actually learned by using jQuery.
@@ -19,7 +19,7 @@ All of my past experience led to who I am now. I can say in pride, that I know H
 This brought me to making my portfolio, benlevi.me. I built using HTML, Sass and jQuery. I created it in order to make myself an internet presence, and gain clients worldwide.
 It is actually not finished yet, as you might see there, I didn't show my current projects, I wish to finish them first and then show them.
 
-For my first 3 clients I decided to learn React, and start using Git. Not surprising, I really love it. It's like a luna park for me, someone who had used pure code to make things.
+For my first 3 clients I decided to learn React, and start using Git. Not surprising, I really love it.
 I still gain knowledge in React as time goes.
 My git knowledge is not perfect and I might even consider myself a beginner.
 
