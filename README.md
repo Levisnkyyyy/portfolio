@@ -4,6 +4,11 @@ Thank you for visiting! this is my personal portfolio available at: http://benle
 I finished making it by August 2019, using HTML, Sass and jQuery.
 I didn't know React at this particular point. I assume that my coding abilities have changed since I started using React, I hope you'd be able to see it.
 
+I don't have any projects shown at my website because I didn't finish them yet.
+
 ### Are you a recruiter?
-There are some things I want to say.
+Please visit my other projects:
+https://github.com/Levisnkyyyy/
+
+There is some extra info I would like to add:
 https://github.com/Levisnkyyyy/portfolio/blob/master/RECRUITER.md
