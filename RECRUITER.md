@@ -28,10 +28,5 @@ I don't like reading from books, and I don't like reading a tutorial (but someti
 When I encounter a problem, or I wish to make something that I don't know yet, I search it. Most of my learning was done by experimenting, from copying code to understanding how it works, and finally making it on my own.
 I believe that everything is possible when it comes to making code, because everything is on the internet.
 
-## Why did I apply if I haven't finished projects yet
-This question has a personal side, I really really really want to advance forward. I feel like I wasted my time all these years. I believe I could have been a great freelancer if I just took myself in hands earlier.
-I'm applying because I think I am already capable of making things happen. And if I don't know how to make something happen, I learn how to make it happen, that's how it always worked for me.
-I'm pretty sure that anyone upon receiving the job they always wanted, will dedicate themselves in order to be in line and even better.
 
-
-Thank you very much. Hope you take me seriously, as I really am.
+Thank you, sorry for the long read.
