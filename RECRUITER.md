@@ -44,6 +44,7 @@ Apart from knowing these languages, I am also experienced in some of the other t
 - Facebook Business (ads and so on)
 - Google Ads
 - Google Analytics
+
 There's sure more to be on the list. That's kinda irrelevant, but I just want to demonstrate my learning abilities and motivation to do things on my own, and making them from scratch to 100% handmade.
 
 Thank you, sorry for the long read.
